@@ -40,7 +40,18 @@ p{
 // 	overflow: hidden;
 // 	transition: all .5s ease-out;
 // }
-
+.wrapper{
+	margin: 0 auto;
+	max-width: 1400px;
+}
+.tableOfList__link{
+	&:hover{
+		cursor: pointer;
+	}
+}
+ol li {
+	list-style: none;
+}
 .article {
 
 	&__title {

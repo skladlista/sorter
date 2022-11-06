@@ -26,6 +26,15 @@ function App() {
                   </div>
               }
         />
+          <Route
+              path="/"
+              element={
+                  <div className="wrapper">
+                      <Sorter setActivePage={setActivePage}/>
+                      <TableOfListSorter menuToggle3={menuToggle3}/>
+                  </div>
+              }
+          />
       </Routes>
     </div>
   );
