@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.article {
+  margin: 10px;
+}
+
+#toggle-table,
+#queue,
+#sap-recertification,
+#move-sheets,
+#zadacha-pack,
+#writing-off-a-sheet,
+#allocation,
+#storno-sheets,
+#adaptation-supply,
+#adaptation-sheet,
+#delete-car,
+#change-ozm,
+#pack {
+  border-top: 80px solid transparent;
+  margin-top: -80px;
+  padding: 15px;
+  /* паддинги - без проблем */
+  background-clip: padding-box;
+}
