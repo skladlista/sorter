@@ -2,7 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="second commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Help/Components/PasswordBlock.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Help/Help.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Help/Help.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/Cards.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/NumSF.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/Provider.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/StornoCard.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/StornoManyCards.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/TableOfListOperatorSap.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/Vd107.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/Vd109.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/Vd309.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/Vd311.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/Vd325.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/Vd343.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/Vd344.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/ZadachaLista.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/Zmm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/OperatorSap.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/OperatorSap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SapEwmSheet/Components/AdaptationSheet.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SapEwmSheet/Components/AdaptationSupply.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SapEwmSheet/Components/Allocation.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SapEwmSheet/Components/ChangeOzm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SapEwmSheet/Components/DeleteCar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SapEwmSheet/Components/MoveSheets.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SapEwmSheet/Components/Pack.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SapEwmSheet/Components/Queue.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SapEwmSheet/Components/SapRecertification.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SapEwmSheet/Components/StornoSheets.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SapEwmSheet/Components/TableOfListSapEwmSheet.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SapEwmSheet/Components/ToggleTable.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SapEwmSheet/Components/ZadachaPack.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SapEwmSheet/SapEwmSheet.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SapEwmSheet/SapEwmSheet.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Secrets/Secrets.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Secrets/Secrets.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/TableOfListSorter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/TableOfListSorter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicStyles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicStyles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +85,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -65,8 +108,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -86,7 +129,7 @@
       <workItem from="1667458573278" duration="2098000" />
       <workItem from="1667629653986" duration="139000" />
       <workItem from="1667762139849" duration="1754000" />
-      <workItem from="1667764588673" duration="12000" />
+      <workItem from="1667764588673" duration="1125000" />
     </task>
     <task id="LOCAL-00001" summary="Add all project">
       <created>1667291052822</created>

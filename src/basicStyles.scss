@@ -206,6 +206,7 @@ div:target>div{
 	-moz-background-clip: padding;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
+
 	@media screen and (max-width: 890px){
 		margin: -80px 0 0 0 ;
 		padding: 0;
@@ -214,6 +215,21 @@ div:target>div{
 
 
 @media screen and (max-width: 425px) {
+	.menu__box {
+		display: block;
+		position: fixed;
+		visibility: hidden;
+		top: 0;
+		left: -100%;
+		width: 300px;
+		height: 100%;
+		margin: 0;
+		padding: 80px 0;
+		list-style: none;
+		text-align: center;
+		background-color: #ECEFF1;
+		box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+	}
 	header {
 		.menu__btn {
 				display: flex;
@@ -228,7 +244,7 @@ div:target>div{
 				cursor: pointer;
 				z-index: 1;
 			}
-		
+
 			/* добавляем "гамбургер" */
 			.menu__btn>span,
 			.menu__btn>span::before,
@@ -239,12 +255,12 @@ div:target>div{
 				height: 2px;
 				background-color: #fff;
 			}
-		
+
 			.menu__btn>span::before {
 				content: '';
 				top: -8px;
 			}
-		
+
 			.menu__btn>span::after {
 				content: '';
 				top: 8px;
@@ -281,21 +297,7 @@ div:target>div{
 			font-size: 1rem;
 		}
 	}
-	.menu__box {
-		display: block;
-		position: fixed;
-		visibility: hidden;
-		top: 0;
-		left: -100%;
-		width: 300px;
-		height: 100%;
-		margin: 0;
-		padding: 80px 0;
-		list-style: none;
-		text-align: center;
-		background-color: #ECEFF1;
-		box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
-	}
+
 
 	/* элементы меню */
 	.menu__item {
@@ -337,7 +339,7 @@ div:target>div{
 	}
 	header {
 			.menu__btn{
-				display: flex;
+				display: none;
 				/* используем flex для центрирования содержимого */
 				align-items: center;
 				/* центрируем содержимое кнопки */

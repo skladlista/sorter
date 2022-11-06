@@ -26,26 +26,6 @@ export default function Header(props) {
             Сортировщик-сдатчик
           </NavLink>
         </div>
-        {/*<div>*/}
-        {/*  <NavLink to="operator-sap" onClick={props.MenuOnClick}>*/}
-        {/*    Оператор SAP*/}
-        {/*  </NavLink>*/}
-        {/*</div>*/}
-        {/*<div>*/}
-        {/*  <NavLink to="sap-ewm-sheet" onClick={props.MenuOnClick}>*/}
-        {/*    SAP EWM лист*/}
-        {/*  </NavLink>*/}
-        {/*</div>*/}
-        {/*<div>*/}
-        {/*  <NavLink to="help" onClick={props.MenuOnClick}>*/}
-        {/*    Пароли*/}
-        {/*  </NavLink>*/}
-        {/*</div>*/}
-        {/*<div>*/}
-        {/*  <NavLink to="secrets" onClick={props.MenuOnClick}>*/}
-        {/*    Нюансы*/}
-        {/*  </NavLink>*/}
-        {/*</div>*/}
       </nav>
       <input
         style={{ display: "none" }}

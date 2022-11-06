@@ -131,7 +131,7 @@ export default function TableOfListSorter(props) {
             TableOfListMenuClick("unloading__sheet-order");
           }}
         >
-          <div className="tableOfList__link">ИЗМЕНЕНИЕ УРОВНЯ В ШТАБЕЛЕ</div>
+          <div className="unloading__order-of-sheets">ИЗМЕНЕНИЕ УРОВНЯ В ШТАБЕЛЕ</div>
         </li>
 
         <li
