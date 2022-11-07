@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="change TableOfListSorter.jsx error">
-      <change afterPath="$PROJECT_DIR$/src/Header/Header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Header/only-for-sorter.scss" afterDir="false" />
+    <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="fix styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sorter/components/CheckSsz.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/CheckSsz.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/LetterReport.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/LetterReport.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/TableOfListSorter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/TableOfListSorter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/UnloadingAsutl.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/UnloadingAsutl.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/UnloadingExternal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/UnloadingExternal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/UnloadingStorno.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/UnloadingStorno.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/basicStyles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicStyles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,8 +73,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -94,7 +96,7 @@
       <workItem from="1667762139849" duration="1754000" />
       <workItem from="1667764588673" duration="2105000" />
       <workItem from="1667767027360" duration="476000" />
-      <workItem from="1667808919767" duration="1517000" />
+      <workItem from="1667808919767" duration="4192000" />
     </task>
     <task id="LOCAL-00001" summary="Add all project">
       <created>1667291052822</created>
@@ -187,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667767151327</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fix styles">
+      <created>1667810826683</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667810826683</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +241,7 @@
     <MESSAGE value="header commit" />
     <MESSAGE value="commit1" />
     <MESSAGE value="change TableOfListSorter.jsx error" />
-    <option name="LAST_COMMIT_MESSAGE" value="change TableOfListSorter.jsx error" />
+    <MESSAGE value="fix styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix styles" />
   </component>
 </project>

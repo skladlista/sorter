@@ -24,6 +24,8 @@ ol {
 	font-family: 'Roboto', sans-serif;
 	--main-bg-color: #4274e9;
 	--main-bg-color2: #153D97;
+	--main-bg-color3: #446ae9;
+	--main-bg-color4: #ffedd1;
 
 	ol {
 		margin: 0;
@@ -161,11 +163,11 @@ p {
 			padding-left: 10px;
 
 			&:hover {
-				border-left: 1px solid var(--main-bg-color);
+				border-left: 1px solid var(--main-bg-color3);
 			}
 
 			div:hover {
-				color: var(--main-bg-color);
+				color: var(--main-bg-color3);
 			}
 		}
 	}
@@ -235,6 +237,16 @@ div:target > div {
 		text-align: center;
 		background-color: #ECEFF1;
 		box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+		ul{
+			li{
+				&:hover {
+					border-left: 1px solid var(--main-bg-color4);
+				}
+				div:hover {
+					color: var(--main-bg-color4);
+				}
+			}
+		}
 	}
 	.main {
 		max-width: 425px;
@@ -316,12 +328,23 @@ div:target > div {
 		padding: 80px 0;
 		list-style: none;
 		text-align: center;
-		background-color: #60cfff;
-		box-shadow: 1px 0px 6px #60cfff;
-
+		background-color: var(--main-bg-color3);
+		box-shadow: 1px 0px 6px var(--main-bg-color3);
 		.tableOfList__link {
 			color: white;
 		}
+		ul{
+			li{
+				text-align: left;
+				&:hover {
+					border-left: 1px solid var(--main-bg-color4);
+				}
+				div:hover {
+					color: var(--main-bg-color4);
+				}
+			}
+		}
+
 	}
 
 	.article {
