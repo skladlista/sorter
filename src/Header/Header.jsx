@@ -1,4 +1,7 @@
 import { NavLink } from "react-router-dom";
+import "./Header.scss"
+import "./only-for-sorter.scss"
+
 
 export default function Header(props) {
 

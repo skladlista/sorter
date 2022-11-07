@@ -1,58 +1,60 @@
 // @import "reset.scss";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
-body{
+body {
 	padding: 0;
 	margin: 0;
 }
+
+ol {
+
+	li {
+		border-bottom: 1px solid black;
+		list-style: none;
+
+		&:last-child {
+			border: none;
+		}
+	}
+}
+
 * {
-	box-sizing:border-box;
+	box-sizing: border-box;
 	transition: all .2s ease-out;
 	font-family: 'Roboto', sans-serif;
 	--main-bg-color: #4274e9;
 	--main-bg-color2: #153D97;
-	ol{
+
+	ol {
 		margin: 0;
 		padding: 0;
 		max-width: 1000px;
 	}
-	img{
-		 max-width: 100%;
-		//display:none;
+
+	img {
+		max-width: 100%;
 	}
 }
 
-p{
+p {
 	padding: 0;
 	margin: 0;
 }
 
+.tableOfList__link {
+	&:hover {
+		cursor: pointer;
+	}
+}
 
-.main{
-	text-align:left;
+.main {
+	text-align: left;
 	margin: 0 auto;
 	width: 100%;
 }
 
-// .sublist {
-// 	max-height: 0px;
-// 	margin-bottom: 0;
-// 	overflow: hidden;
-// 	transition: all .5s ease-out;
-// }
-.wrapper{
-	margin: 0 auto;
-	max-width: 1400px;
-}
-.tableOfList__link{
-	&:hover{
-		cursor: pointer;
-	}
-}
-ol li {
-	list-style: none;
-}
 .article {
+	margin: 10px;
 
 	&__title {
 		// color: #fff;
@@ -63,7 +65,7 @@ ol li {
 		padding: 1.5rem;
 
 		&:hover {
-			
+
 			padding: 1.5rem;
 		}
 	}
@@ -71,14 +73,31 @@ ol li {
 	&__div {
 		border-radius: 0 0 20px 20px;
 		margin-bottom: 1rem;
-		
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		@media screen and (min-width: 700px) {
+			justify-content: flex-start;
+		}
 	}
 
 	&__subtitle {
+		.name {
+			display: block;
+			text-decoration: underline;
+		}
+
+		input {
+			outline: none;
+			border: none;
+			font-size: 1.3rem;
+			width: 200px;
+		}
 
 		.sublist {
 			padding-left: 2rem;
 		}
+
 		font-size: 1.3rem;
 		font-family: 'Roboto', sans-serif;
 		padding: 0.5rem 0.5rem 0.5rem 0rem;
@@ -87,14 +106,13 @@ ol li {
 		letter-spacing: 0.03rem;
 
 		.bold {
-				font-weight: 500;
-				word-wrap: break-word;
-			}
+			font-weight: 500;
+			word-wrap: break-word;
+		}
 
 		ol, ul {
 			font-family: 'Roboto', sans-serif;
 
-			
 
 			li {
 				font-size: 1rem;
@@ -104,79 +122,56 @@ ol li {
 				line-height: 1.5rem;
 			}
 		}
-		p{
+
+		p {
 			font-weight: 500;
 		}
 	}
-	@media screen and ( max-width: 890px ){
+
+	@media screen and (max-width: 890px) {
 		margin: 0;
 		padding: 0;
 	}
 
 }
+
 // below table-of-list styles
 
 .wrapper {
 	display: flex;
+	max-width: 1400px;
+	margin: 0 auto;
 }
-.table-of-list{
+
+.table-of-list {
 	min-width: 300px;
 	margin: 0;
 	box-sizing: border-box;
-	
+
 	ul {
 		position: sticky;
 		top: 100px;
-		// width: 250px;
 		margin: 0;
 		padding: 0 0 0 20px;
 		list-style: none;
-		li{
+
+		li {
 			text-transform: lowercase;
 			margin: 20px;
 			padding-left: 10px;
-			&:hover{
+
+			&:hover {
 				border-left: 1px solid var(--main-bg-color);
 			}
-			div:hover{
+
+			div:hover {
 				color: var(--main-bg-color);
 			}
 		}
 	}
 }
 
-//footer below
-header {
-	z-index: 9999;
-	position: sticky;
-	top: 0;
-	width: 100%;
-	height: 80px;
-	background-color: var(--main-bg-color2);
-	nav{
-		display: flex;
-		height: 80px;
-		align-items: center;
-		justify-content: space-around;
-	}
-	
-	a, a:visited{
-		color: rgb(255, 255, 255);
-		text-decoration: none;
-		padding: 20px;
-		font-family: 'Roboto', sans-serif;
-	}
-	a:hover {
-		color: var(--main-bg-color);
-	}
-	.header__activePage{
-		display: none;
-		color: #fff;
-	}
-	
-}
-
-div:target>div{
+div:target > div {
 	animation: highlight .8s ease-out;
 }
 
@@ -218,15 +213,43 @@ div:target>div{
 	-moz-background-clip: padding;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-
-	@media screen and (max-width: 890px){
-		margin: -80px 0 0 0 ;
+	@media screen and (max-width: 890px) {
+		margin: -80px 0 0 0;
 		padding: 0;
 	}
 }
 
 
 @media screen and (max-width: 425px) {
+	.table-of-list {
+		display: block;
+		position: fixed;
+		// visibility: hidden;
+		top: 0;
+		right: -80%;
+		width: 300px;
+		height: 100%;
+		margin: 0;
+		padding: 80px 0;
+		list-style: none;
+		text-align: center;
+		background-color: #ECEFF1;
+		box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+	}
+	.main {
+		max-width: 425px;
+	}
+	.article {
+		padding-right: 0;
+
+		&__title {
+			font-size: 1.3rem;
+		}
+
+		&__subtitle {
+			font-size: 1rem;
+		}
+	}
 	.menu__box {
 		display: block;
 		position: fixed;
@@ -242,74 +265,6 @@ div:target>div{
 		background-color: #ECEFF1;
 		box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
 	}
-	header {
-		.menu__btn {
-				display: flex;
-				/* используем flex для центрирования содержимого */
-				align-items: center;
-				/* центрируем содержимое кнопки */
-				position: fixed;
-				top: 20px;
-				left: 20px;
-				width: 26px;
-				height: 26px;
-				cursor: pointer;
-				z-index: 1;
-			}
-
-			/* добавляем "гамбургер" */
-			.menu__btn>span,
-			.menu__btn>span::before,
-			.menu__btn>span::after {
-				display: block;
-				position: absolute;
-				width: 100%;
-				height: 2px;
-				background-color: #fff;
-			}
-
-			.menu__btn>span::before {
-				content: '';
-				top: -8px;
-			}
-
-			.menu__btn>span::after {
-				content: '';
-				top: 8px;
-			}
-			nav{
-				flex-direction: column;
-				align-items: flex-start;
-			}
-	}
-	.table-of-list{
-		display: block;
-		position: fixed;
-		// visibility: hidden;
-		top: 0;
-		right: -80%;
-		width: 300px;
-		height: 100%;
-		margin: 0;
-		padding: 80px 0;
-		list-style: none;
-		text-align: center;
-		background-color: #ECEFF1;
-		box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
-	}
-	.main{
-		max-width: 425px;
-	}
-	.article{
-		padding-right: 0;
-		&__title{
-			font-size: 1.3rem;
-		}
-		&__subtitle{
-			font-size: 1rem;
-		}
-	}
-
 
 	/* элементы меню */
 	.menu__item {
@@ -325,155 +280,30 @@ div:target>div{
 	.menu__item:hover {
 		background-color: #CFD8DC;
 	}
-			#menu__toggle:checked~.menu__btn>span {
-				transform: rotate(45deg);
-			}
-	
-			#menu__toggle:checked~.menu__btn>span::before {
-				top: 0;
-				transform: rotate(0);
-			}
-	
-			#menu__toggle:checked~.menu__btn>span::after {
-				top: 0;
-				transform: rotate(90deg);
-			}
-	
-			#menu__toggle:checked~.menu__box {
-				visibility: visible;
-				left: 0;
-			}
+	#menu__toggle:checked ~ .menu__btn > span {
+		transform: rotate(45deg);
+	}
+
+	#menu__toggle:checked ~ .menu__btn > span::before {
+		top: 0;
+		transform: rotate(0);
+	}
+
+	#menu__toggle:checked ~ .menu__btn > span::after {
+		top: 0;
+		transform: rotate(90deg);
+	}
+
+	#menu__toggle:checked ~ .menu__box {
+		visibility: visible;
+		left: 0;
+	}
 }
 
 @media screen and (max-width: 890px) {
-	.wrapper{
-		flex-direction:column;
+	.wrapper {
+		flex-direction: column;
 	}
-	header {
-			.menu__btn{
-				display: none;
-				/* используем flex для центрирования содержимого */
-				align-items: center;
-				/* центрируем содержимое кнопки */
-				position: fixed;
-				top: 20px;
-				left: 20px;
-				width: 26px;
-				height: 26px;
-				cursor: pointer;
-				z-index: 1;
-			}
-			
-			.menu__btn2 {
-				display: flex;
-				/* используем flex для центрирования содержимого */
-				align-items: center;
-				/* центрируем содержимое кнопки */
-				position: fixed;
-				top: 20px;
-				right: 20px;
-				width: 26px;
-				height: 26px;
-				cursor: pointer;
-			}
-	
-			/* добавляем "гамбургер" */
-			.menu__btn>span,
-			.menu__btn>span::before,
-			.menu__btn>span::after,
-			.menu__btn2>span,
-			.menu__btn2>span::before,
-			.menu__btn2>span::after {
-				display: block;
-				position: absolute;
-				width: 100%;
-				height: 2px;
-				background-color: #fff;
-			}
-	
-			.menu__btn>span::before,
-			.menu__btn2>span::before {
-				content: '';
-				top: -8px;
-			}
-	
-			.menu__btn>span::after,
-			.menu__btn2>span::after {
-				content: '';
-				top: 8px;
-			}
-	
-			nav {
-				flex-direction: column;
-				align-items: flex-start;
-			}
-			.menu__box {
-				display: block;
-				position: fixed;
-				visibility: hidden;
-				top: 80px;
-				left: -100%;
-				width: 300px;
-				height: 100%;
-				margin: 0;
-				padding: 20px 0;
-				list-style: none;
-				text-align: center;
-				background-color: #60cfff;
-				div{
-					margin-bottom: 20px
-				}
-			}
-
-			/* элементы меню */
-			.menu__item {
-				display: block;
-				padding: 12px 24px;
-				color: #333;
-				font-family: 'Roboto', sans-serif;
-				font-size: 20px;
-				font-weight: 600;
-				text-decoration: none;
-			}
-
-			.menu__item:hover {
-				background-color: #CFD8DC;
-			}
-			#menu__toggle:checked~.menu__btn>span,
-			#menu__toggle2:checked~.menu__btn2>span {
-				transform: rotate(45deg);
-			}
-
-			#menu__toggle:checked~.menu__btn>span::before,
-			#menu__toggle2:checked~.menu__btn2>span::before,
-
-			{
-				top: 0;
-				transform: rotate(0);
-			}
-
-			#menu__toggle:checked~.menu__btn>span::after,
-			#menu__toggle2:checked~.menu__btn2>span::after,
-			{
-				top: 0;
-				transform: rotate(90deg);
-			}
-
-			#menu__toggle:checked~.menu__box,
-			{
-				visibility: visible;
-				left: 0;
-			}
-
-			.header__activePage{
-				color: #fff;
-				display: inline-block;
-				padding: 25px;
-				letter-spacing: 1px;
-				font-family: "Roboto", sans-serif;
-			}
-		}
-
 	.table-of-list {
 		display: block;
 		position: fixed;
@@ -488,8 +318,9 @@ div:target>div{
 		text-align: center;
 		background-color: #60cfff;
 		box-shadow: 1px 0px 6px #60cfff;
-		.tableOfList__link{
-  			color:white
+
+		.tableOfList__link {
+			color: white;
 		}
 	}
 
@@ -497,8 +328,9 @@ div:target>div{
 		padding-right: 0;
 	}
 }
+
 @media print {
-	header, .table-of-list{
+	header, .table-of-list {
 		display: none;
 	}
 	.sublist {
@@ -509,7 +341,7 @@ div:target>div{
 }
 
 @media screen and (max-width: 700px) {
-	ol{
+	ol {
 		max-width: 100%;
 	}
 	* {
