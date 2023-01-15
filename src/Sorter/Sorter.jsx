@@ -1,4 +1,6 @@
 import CheckSsz from "./components/CheckSsz";
+import Recertification from "./components/Recertification";
+import ProductionSheet from "./components/ProductionSheet";
 import Unloading from "./components/Unloading";
 import UnloadingExternal from "./components/UnloadingExternal";
 import UnloadingStorno from "./components/UnloadingStorno";
@@ -15,14 +17,20 @@ import Sklad3037 from "./components/Sklad3037";
 import IssuanceOfCards from "./components/IssuanceOfCards";
 import OrderOfSheets from "./components/OrderOfSheets";
 import UnloadingSkladL027 from "./components/UnloadingSkladL027";
+import AddCards from "./components/AddCards";
+import ComebackSheet from "./components/ComebackSheet";
+import AddSheetInStart from "./components/AddSheetInStart";
+import CheckCastTest from "./components/CheckCastTest";
 
 export default function Sorter(props) {
-    window.scrollTo(0,0)
-    props.setActivePage('Сортировщик-сдатчик')
+  window.scrollTo(0, 0);
+  props.setActivePage("Сортировщик-сдатчик");
 
-    return (
+  return (
     <div className="main">
       <CheckSsz />
+      <Recertification />
+      <ProductionSheet />
       <Unloading />
       <UnloadingExternal />
       <UnloadingStorno />
@@ -37,8 +45,12 @@ export default function Sorter(props) {
       <AutoUnloading />
       <Sklad3037 />
       <IssuanceOfCards />
+      <AddCards />
       <OrderOfSheets />
       <UnloadingSkladL027 />
+      <ComebackSheet />
+      <AddSheetInStart />
+      <CheckCastTest />
     </div>
   );
 }

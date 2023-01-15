@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="fix styles">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorter/components/CheckSsz.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/CheckSsz.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorter/components/LetterReport.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/LetterReport.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorter/components/TableOfListSorter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/TableOfListSorter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorter/components/UnloadingAsutl.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/UnloadingAsutl.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorter/components/UnloadingExternal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/UnloadingExternal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorter/components/UnloadingStorno.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/UnloadingStorno.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basicStyles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicStyles.scss" afterDir="false" />
-    </list>
+    <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="fix styles" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +86,7 @@
       <workItem from="1667762139849" duration="1754000" />
       <workItem from="1667764588673" duration="2105000" />
       <workItem from="1667767027360" duration="476000" />
-      <workItem from="1667808919767" duration="4192000" />
+      <workItem from="1667808919767" duration="4276000" />
     </task>
     <task id="LOCAL-00001" summary="Add all project">
       <created>1667291052822</created>
@@ -196,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667810826683</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fix styles">
+      <created>1667814695450</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667814695450</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
