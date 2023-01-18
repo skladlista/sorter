@@ -17,7 +17,7 @@ export default function TableOfListSorter(props) {
             TableOfListMenuClick("recertification");
           }}
         >
-          <div className="tableOfList__link">ПЕРЕАТТЕСТАЦИЯ ЛИСТА</div>
+          <div className="tableOfList__link">Переаттестация листа</div>
         </li>
 
         <li

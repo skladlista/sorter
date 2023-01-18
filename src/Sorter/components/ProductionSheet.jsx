@@ -4,7 +4,7 @@ import sort from "../../assets/sort.jpg";
 export default function ProductionSheet() {
   return (
     <div id="production__sheet" className="article ssz-check">
-      <p className="article__title">ПРОВЕРКА СМЕННО-СУТОЧНОГО ЗАДАНИЯ</p>
+      <p className="article__title">ДОБАВЛЕНИЕ ЗАДАЧИ ЛИСТА ИЗ 1С В EXCEL</p>
       <div className="article__div">
         <ol>
           <li className="article__subtitle">
@@ -54,14 +54,13 @@ export default function ProductionSheet() {
               </li>
               <li>Нажать завершить и потом нажать сформировать</li>
               <li>
-                Скопировать сформированные листы от колонки{" "}
-                <span className="bold">НОМЕР ПЛАВКИ</span> до колонки
-                <span className="bold"> НОМЕР ЗАДАНИЯ</span>
+                Скопировать из сформированной в 1С таблицы колонки <span className="bold">ПАРТИЮ SAP, НОМЕР ПЛАВКИ,
+                НОМЕР ЛИСТА ПОСТАВЩИКА, НОМЕР ЛИСТА ТЭСЦ, НОМЕР ЗАДАНИЯ</span>
               </li>
               <li>Вставить в черновик</li>
               <li>
                 Скопировать с листа <span className="bold">СКЛАД ЛИСТА</span>{" "}
-                ячейки от К1 до L1 (номер плавки и номер листа поставщика) в
+                заголовки (партию sap, номер плавки и номер листа поставщика) в
                 черновить в соответствующие поля
               </li>
               <li>
@@ -73,13 +72,9 @@ export default function ProductionSheet() {
                 выделить весь склад
               </li>
               <li>
-                Ячейку <span className="bold">Диапазон условий</span> выделить и
-                после выбрать в черновике от колонки{" "}
-                <span className="bold">плавка</span> до колонки{" "}
-                <span className="bold">Номер листа поставщика</span>
-              </li>
-              <li>
-                Нажать <span className="bold">OK</span>
+                Ячейку <span className="bold">Диапазон условий</span> выбрать и
+                выделить в черновике колонки <span className="bold">ПАРТИЯ SAP, НОМЕР ПЛАВКИ, НОМЕР ЛИСТА ПОСТАВЩИКА </span>
+                → Нажать <span className="bold">OK</span>
               </li>
               <li>
                 После сформирования проверить количество в черновике и
@@ -87,8 +82,8 @@ export default function ProductionSheet() {
               </li>
               <li>
                 Выделить всё найденное на листе{" "}
-                <span className="bold">СКЛАД ЛИСТА</span> (для этого выделить А1
-                и нажать (CTRL+A)
+                <span className="bold">СКЛАД ЛИСТА</span> (для этого выделить заголовок
+                и нажать CTRL+A
               </li>
               <li>
                 Выбрать вкладку{" "}
@@ -103,8 +98,8 @@ export default function ProductionSheet() {
                 <img src={sort} alt="..." />
               </li>
               <li>
-                Выделить всё на черновике (для этого выделить А1 и нажать
-                (CTRL+A)
+                Выделить всё на черновике (для этого выделить заголовок и нажать
+                CTRL+A
               </li>
               <li>
                 Выбрать вкладку{" "}
@@ -149,7 +144,7 @@ export default function ProductionSheet() {
               </li>
               <li>Включить фильтр</li>
               <li>Удалить черновик</li>
-              <li>Обновить формулы (SHIFT+F9)</li>
+              <li>Обновить формулы в отчете (SHIFT+F9)</li>
               <li>
                 Добавить задачу в ДНЕВНОЙ ОТЧЕТ. Для этого выделить нужные листы
                 и перейти на вкладку ПРИЕМКА → Отчет по задаче → Скопировать
