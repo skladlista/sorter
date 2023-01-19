@@ -99,9 +99,10 @@ export default function CheckSsz() {
             <ol className="sublist">
               <li>
                 Выделить нужные строки → Перейти на вкладку{" "}
-                <span className="bold">ПРИЕМКА</span> → Скопировать полученные
-                данные в <span className="bold">ОТЧЕТ ПО ВЫГРУЗКЕ</span>.
-                Черновик удалить.
+                <span className="bold">ПРИЕМКА</span> → Создать Отчёт по
+                выгрузке → Скопировать полученные данные в{" "}
+                <span className="bold">ОТЧЕТ ПО ВЫГРУЗКЕ</span>. Черновик
+                удалить.
               </li>
             </ol>
           </li>
@@ -110,9 +111,9 @@ export default function CheckSsz() {
             <ol className="sublist">
               <li>
                 Выделить нужные строки → Перейти на вкладку{" "}
-                <span className="bold">ПРИЕМКА</span> → Скопировать полученные
-                данные в <span className="bold">ДНЕВНОЙ ОТЧЕТ</span>. Черновик
-                удалить.
+                <span className="bold">ПРИЕМКА</span> → Создать Дневной отчёт по
+                выгрузке → Скопировать полученные данные в{" "}
+                <span className="bold">ДНЕВНОЙ ОТЧЕТ</span>. Черновик удалить.
               </li>
             </ol>
           </li>
