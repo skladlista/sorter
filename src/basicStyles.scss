@@ -242,6 +242,7 @@ div:target > div {
     background-color: #ECEFF1;
     box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
     ul{
+      height: auto;
       li{
         &:hover {
           border-left: 1px solid var(--main-bg-color4);
@@ -338,6 +339,7 @@ div:target > div {
       color: white;
     }
     ul{
+      height: auto;
       overflow-y: hidden;
       li{
         text-align: left;

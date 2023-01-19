@@ -146,7 +146,7 @@ export default function UnloadingExternal() {
             <ol type="a" className="sublist">
               <li>
                 Выделить нужные строки → Перейти на вкладку{" "}
-                <span className="bold">ПРИЕМКА</span> → Скопировать полученные
+                <span className="bold">ПРИЕМКА</span> → Создать Дневной отчёт по выгрузке → Скопировать полученные
                 данные в <span className="bold">ДНЕВНОЙ ОТЧЕТ</span>. Черновик
                 удалить.
               </li>
