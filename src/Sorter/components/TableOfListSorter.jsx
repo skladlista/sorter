@@ -1,193 +1,179 @@
 import TableOfListMenuClick from "../../scripts/TableOfListMenuClick";
+import { NavLink } from "react-router-dom";
 
 export default function TableOfListSorter(props) {
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    TableOfListMenuClick();
+  }
   return (
     <section className="table-of-list">
       <ul className="ul">
-        <li
-          onClick={() => {
-            TableOfListMenuClick("ssz-check");
-          }}
-        >
-          <div className="tableOfList__link">ПРОВЕРКА ССЗ</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="check-ssz">
+            ПРОВЕРКА ССЗ
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("recertification");
-          }}
-        >
-          <div className="tableOfList__link">Переаттестация листа</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="recertification">
+            Переаттестация листа
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("production__sheet");
-          }}
-        >
-          <div className="tableOfList__link">Добавление задачи листа</div>
-        </li>
-
-        <li
-          onClick={() => {
-            TableOfListMenuClick("unloading");
-          }}
-        >
-          <div className="tableOfList__link">ВЫГРУЗКА ОТ ПОСТАВЩИКА</div>
-        </li>
-
-        <li
-          onClick={() => {
-            TableOfListMenuClick("unloading__from-external");
-          }}
-        >
-          <div className="tableOfList__link">ПЕРЕМЕЩЕНИЕ С ВНЕШНЕГО СКЛАДА</div>
-        </li>
-
-        <li
-          onClick={() => {
-            TableOfListMenuClick("unloading__storno");
-          }}
-        >
-          <div className="tableOfList__link">СТОРНИРОВАНИЕ ВАГОНА</div>
-        </li>
-
-        <li
-          onClick={() => {
-            TableOfListMenuClick("unloading__asutl");
-          }}
-        >
-          <div className="tableOfList__link">ВЫГРУЗКА ВАГОНОВ ПО АСУ ТЛ</div>
-        </li>
-
-        <li
-          onClick={() => {
-            TableOfListMenuClick("unloading__zhd-request");
-          }}
-        >
-          <div className="tableOfList__link">СОЗДАНИЕ ЖД ЗАЯВКИ</div>
-        </li>
-
-        <li
-          onClick={() => {
-            TableOfListMenuClick("unloading__activate");
-          }}
-        >
-          <div className="tableOfList__link">
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="activate">
             АКТИВАЦИЯ ЗАДАНИЯ НА ПРОИЗВОДСТВО
-          </div>
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("unloading__create-new-task");
-          }}
-        >
-          <div className="tableOfList__link">СОЗДАНИЕ СКЛАДСКОЙ ЗАДАЧИ</div>
+        <li onClick={topFunction}>
+          <NavLink
+            className="tableOfList__link"
+            to="count_remainder_to_production"
+          >
+            Подсчёт остатка листа к задаче
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("unloading__find-sheets");
-          }}
-        >
-          <div className="tableOfList__link">КАК НАХОДИТЬ ЛИСТЫ В SAP</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="production__sheet">
+            Добавление задачи листа
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("unloading__move-sheets");
-          }}
-        >
-          <div className="tableOfList__link">ПЕРЕМЕЩЕНИЕ ЛИСТОВ</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="comeback_sheet">
+            Вернуть лист из производства
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("unloading__letter-report");
-          }}
-        >
-          <div className="tableOfList__link">ФОРМИРОВАНИЕ ПИСЬМА-ОТЧЕТА</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="add_sheet_in_start">
+            Задать лист вне очереди
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("unloading__ex-filter");
-          }}
-        >
-          <div className="tableOfList__link">ДОПОЛНИТЕЛЬНЫЙ ФИЛЬТР</div>
+        <hr />
+
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="unloading">
+            ВЫГРУЗКА ОТ ПОСТАВЩИКА
+          </NavLink>
+        </li>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="asutl">
+            ВЫГРУЗКА ВАГОНОВ ПО АСУ ТЛ
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("unloading__auto-unloading");
-          }}
-        >
-          <div className="tableOfList__link">ВЫГРУЗКА ВАГОНА БЕЗ ПЛАНШЕТА</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="auto_unloading">
+            ВЫГРУЗКА ВАГОНА БЕЗ ПЛАНШЕТА
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("unloading__sklad-3037");
-          }}
-        >
-          <div className="tableOfList__link">ПЕРЕДАЧА НА ERP склад</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="storno">
+            СТОРНИРОВАНИЕ ВАГОНА
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("unloading__issuance-of-cards");
-          }}
-        >
-          <div className="tableOfList__link">ВЫПУСК КАРТ В 1С</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="zhd-request">
+            СОЗДАНИЕ ЖД ЗАЯВКИ
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("add-cards");
-          }}
-        >
-          <div className="tableOfList__link">ДОБАВЛЕНИЕ КАРТ В EXCEL</div>
+        <hr />
+
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="unloading_external">
+            ПЕРЕМЕЩЕНИЕ С ВНЕШНЕГО СКЛАДА
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("unloading__order-of-sheets");
-          }}
-        >
-          <div className="tableOfList__link">ИЗМЕНЕНИЕ УРОВНЯ В ШТАБЕЛЕ</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="cards_unloading">
+            ПРИЕМ КАРТ ИЗ ЦСК
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("unloading__unloading-sklad-l027");
-          }}
-        >
-          <div className="tableOfList__link">ПРИЕМ КАРТ С ВНЕШНЕГО СКЛАДА</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="sklad_erp">
+            ПЕРЕДАЧА НА ERP склад
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("comeback__sheet");
-          }}
-        >
-          <div className="tableOfList__link">Вернуть лист из производства</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="loading_external">
+            Перемещение на внешний склад
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("add__sheet__in__start");
-          }}
-        >
-          <div className="tableOfList__link">Задать лист вне очереди</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="move_sheets">
+            ПЕРЕМЕЩЕНИЕ с уровнем
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("check__cast__test");
-          }}
-        >
-          <div className="tableOfList__link">Разведчики</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="create-new-task">
+            перемещение без уровня
+          </NavLink>
+        </li>
+
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="order_of_sheets">
+            ИЗМЕНЕНИЕ УРОВНЯ В ШТАБЕЛЕ
+          </NavLink>
+        </li>
+
+        <hr />
+
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="letter_report">
+            ФОРМИРОВАНИЕ ПИСЬМА-ОТЧЕТА
+          </NavLink>
+        </li>
+
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="add_cards">
+            ДОБАВЛЕНИЕ КАРТ В EXCEL
+          </NavLink>
+        </li>
+
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="find_sheets">
+            КАК НАХОДИТЬ ЛИСТЫ В SAP
+          </NavLink>
+        </li>
+
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="filter">
+            КАК НАХОДИТЬ ЛИСТЫ В Excel
+          </NavLink>
+        </li>
+
+        <hr />
+
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="check_cast_test">
+            Плавки "разведчики"
+          </NavLink>
+        </li>
+
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="phone_numbers">
+            Номера телефонов
+          </NavLink>
+        </li>
+
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="issuance_of_cards">
+            ВЫПУСК КАРТ В 1С
+          </NavLink>
         </li>
       </ul>
     </section>

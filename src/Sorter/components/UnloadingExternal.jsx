@@ -18,7 +18,7 @@ export default function UnloadingExternal() {
               <li>
                 Зайти в САП → Монитор управления складами → Проводки переноса
               </li>
-              <li>Найти свои листы (искать по ЕО)</li>
+              <li>Найти свои листы (искать по партии сап)</li>
               <li>
                 Если какие-то документы красные → Нажать на этот документ →
                 Кнопка с весами (Проверить) → Сохранить
@@ -103,8 +103,7 @@ export default function UnloadingExternal() {
                 На листе <span className="bold"> СКЛАД ЛИСТА</span> установить в
                 колонке <span className="bold">СКЛАД </span>
                 значение <span className="bold">3027</span> и очистить колонку{" "}
-                <span className="bold">МЕСТО ХРАНЕНИЯ</span> и
-                <span className="bold"> УРОВЕНЬ</span>
+                <span className="bold">МЕСТО ХРАНЕНИЯ</span>
               </li>
               <li>
                 На листе <span className="bold">СКЛАД ЛИСТА</span> установить в
@@ -115,7 +114,6 @@ export default function UnloadingExternal() {
                 </span>
               </li>
               <li>Удалить черновик</li>
-              <li>Обновить формулы (SHIFT+F9)</li>
             </ol>
           </li>
           <li className="article__subtitle">
@@ -146,9 +144,9 @@ export default function UnloadingExternal() {
             <ol type="a" className="sublist">
               <li>
                 Выделить нужные строки → Перейти на вкладку{" "}
-                <span className="bold">ПРИЕМКА</span> → Создать Дневной отчёт по выгрузке → Скопировать полученные
-                данные в <span className="bold">ДНЕВНОЙ ОТЧЕТ</span>. Черновик
-                удалить.
+                <span className="bold">ПРИЕМКА</span> → Создать Дневной отчёт по
+                выгрузке → Скопировать полученные данные в{" "}
+                <span className="bold">ДНЕВНОЙ ОТЧЕТ</span>. Черновик удалить.
               </li>
             </ol>
           </li>

@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="fix styles">
+    <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="add modifications">
+      <change afterPath="$PROJECT_DIR$/src/Sorter/components/CountRemainderToProduction.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorter/components/LoadingExternal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorter/components/PhoneNumbers.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/Sorter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/Sorter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/Activate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/Activate.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/AddSheetInStart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/AddSheetInStart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/CheckSsz.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/CheckSsz.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/ExFilter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/ExFilter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/Recertification.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/Recertification.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/Sklad3037.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/Sklad3037.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/TableOfListSorter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/TableOfListSorter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/Unloading.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/Unloading.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sorter/components/UnloadingExternal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/UnloadingExternal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/UnloadingSkladL027.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/UnloadingCardsFrom3044.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/basicStyles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicStyles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Frontend/2022/Projects/Instructions-sorter",
+    "last_opened_file_path": "D:/Frontend/2022/Projects/Instructions",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -99,7 +115,10 @@
       <workItem from="1667808919767" duration="4276000" />
       <workItem from="1673770002500" duration="2057000" />
       <workItem from="1674045722319" duration="1104000" />
-      <workItem from="1674110623747" duration="1183000" />
+      <workItem from="1674110623747" duration="1451000" />
+      <workItem from="1674290332832" duration="209000" />
+      <workItem from="1674297720394" duration="3960000" />
+      <workItem from="1674316139207" duration="472000" />
     </task>
     <task id="LOCAL-00001" summary="Add all project">
       <created>1667291052822</created>
@@ -227,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674046552612</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fix styles">
+      <created>1674112105626</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1674112105626</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +299,7 @@
     <MESSAGE value="commit1" />
     <MESSAGE value="change TableOfListSorter.jsx error" />
     <MESSAGE value="fix styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix styles" />
+    <MESSAGE value="add modifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="add modifications" />
   </component>
 </project>

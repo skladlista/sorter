@@ -41,6 +41,10 @@ p {
 }
 
 .tableOfList__link {
+  text-decoration: none;
+  &:visited{
+    color: black;
+  }
   &:hover {
     cursor: pointer;
   }
@@ -136,10 +140,23 @@ p {
 // below table-of-list styles
 
 .wrapper {
-  display: flex;
+
   max-width: 1400px;
   margin: 0 auto;
+  justify-content: center;
+
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+  "first two";
 }
+.first { grid-area: first; }
+
+.two { grid-area: two; }
+
 
 .table-of-list {
   min-width: 300px;
@@ -164,7 +181,7 @@ p {
         border-left: 1px solid var(--main-bg-color3);
       }
 
-      div:hover {
+      a:hover {
         color: var(--main-bg-color3);
       }
     }
@@ -188,45 +205,46 @@ div:target > div {
 }
 
 
-#ssz-check,
-#unloading,
-#unloading__from-external,
-#unloading__storno,
-#unloading__asutl,
-#unloading__zhd-request,
-#unloading__activate,
-#unloading__create-new-task,
-#unloading__find-sheets,
-#unloading__move-sheets,
-#unloading__letter-report,
-#unloading__ex-filter,
-#unloading__auto-unloading,
-#unloading__sklad-3037,
-#unloading__issuance-of-cards,
-#unloading__order-of-sheets,
-#unloading__sheet-order,
-#unloading__unloading-sklad-l027,
-#recertification,
-#production__sheet,
-#add-cards,
-#comeback__sheet,
-#add__sheet__in__start,
-#check__cast__test {
-  border-top: 80px solid transparent;
-  margin-top: -80px;
-  padding: 15px;
-  /* паддинги - без проблем */
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  @media screen and (max-width: 890px) {
-    margin: -80px 0 0 0;
-    padding: 0;
-  }
-}
+//#ssz-check,
+//#unloading,
+//#unloading__from-external,
+//#unloading__storno,
+//#unloading__asutl,
+//#unloading__zhd-request,
+//#unloading__activate,
+//#unloading__create-new-task,
+//#unloading__find-sheets,
+//#unloading__move-sheets,
+//#unloading__letter-report,
+//#unloading__ex-filter,
+//#unloading__auto-unloading,
+//#unloading__sklad-3037,
+//#unloading__issuance-of-cards,
+//#unloading__order-of-sheets,
+//#unloading__sheet-order,
+//#unloading__unloading-sklad-l027,
+//#recertification,
+//#production__sheet,
+//#add-cards,
+//#comeback__sheet,
+//#add__sheet__in__start,
+//#check__cast__test {
+//  border-top: 80px solid transparent;
+//  margin-top: -80px;
+//  padding: 15px;
+//  /* паддинги - без проблем */
+//  -moz-background-clip: padding;
+//  -webkit-background-clip: padding-box;
+//  background-clip: padding-box;
+//  @media screen and (max-width: 890px) {
+//    margin: -80px 0 0 0;
+//    padding: 0;
+//  }
+//}
 
 
 @media screen and (max-width: 425px) {
+  .wrapper{display: block}
   .table-of-list {
     display: block;
     position: fixed;
@@ -319,6 +337,7 @@ div:target > div {
 
 @media screen and (max-width: 890px) {
   .wrapper {
+    display: flex;
     flex-direction: column;
   }
   .table-of-list {
@@ -346,7 +365,7 @@ div:target > div {
         &:hover {
           border-left: 1px solid var(--main-bg-color4);
         }
-        div:hover {
+        a:hover {
           color: var(--main-bg-color4);
         }
       }

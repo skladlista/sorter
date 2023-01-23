@@ -5,7 +5,7 @@ export default function ExFilter() {
   return (
     <div id="unloading__sklad-3037" className="article unloading__sklad-3037">
       <p className="article__title">
-        ПЕРЕДАЧА НА ERP склад (НАПРИМЕР НА 3037 ДЛЯ СВАРКИ КАРТ)
+        ПЕРЕДАЧА НА ERP склад (НАПРИМЕР НА 3044 ДЛЯ СВАРКИ КАРТ)
       </p>
       <div className="article__div">
         <ol>
@@ -27,7 +27,8 @@ export default function ExFilter() {
             Выбрать процесс ОМ – <span className="bold">Не EWM склад</span>
           </li>
           <li className="article__subtitle">
-            Не EWM склад - <span className="bold">(например: 3037)</span>
+            Не EWM склад -{" "}
+            <span className="bold">(3044 - для ЦСК, 3037 - для ТЭСЦ)</span>
           </li>
           <li className="article__subtitle">
             Вписать ЕО и нажать{" "}
@@ -37,10 +38,13 @@ export default function ExFilter() {
             Выбрать <span className="bold">ПроводкаОМ</span>
           </li>
           <li className="article__subtitle">
-            На почту придут ошибки (со складом 3037 это нормально)
+            На почту придут ошибки (такое будет только со складом 3037 и это
+            нормально)
           </li>
           <li className="article__subtitle">
-            Найти скопированные до этого ЕО в мониторе
+            Найти скопированные до этого ЕО в мониторе (проставить отметку на
+            ячейке
+            <span className="bold"> «ЕО ПУСТАЯ»</span>)
           </li>
           <li className="article__subtitle">Выделить найденное</li>
           <li className="article__subtitle">

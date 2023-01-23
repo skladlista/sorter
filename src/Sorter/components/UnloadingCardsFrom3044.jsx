@@ -1,12 +1,12 @@
 import L027 from "../../assets/L027.jpg";
 
-export default function UnloadingSkladL027() {
+export default function UnloadingCardsFrom3044() {
   return (
     <div
       id="unloading__unloading-sklad-l027"
       className="article unloading__unloading-sklad-l027"
     >
-      <p className="article__title">ПРИЕМ КАРТ С ВНЕШНЕГО СКЛАДА</p>
+      <p className="article__title">ПРИЕМ КАРТ ИЗ ЦСК</p>
       <div className="article__div">
         <ol>
           {/* для создания слудющих заголовков дублируй li внизу */}
@@ -28,18 +28,28 @@ export default function UnloadingSkladL027() {
             </span>
           </li>
           <li className="article__subtitle">
-            Скопировать плавку и номер (или ЕО)
+            Скопировать плавку и номер и ЕО (единица обработки)
           </li>
           <li className="article__subtitle">
-            Найти скопированные листы в складе листа
+            Найти скопированные листы в складе листа (через дополнительный
+            фильтр)
           </li>
           <li className="article__subtitle">
-            Изменить у них склад и в колонке{" "}
+            Изменить у них склад на 3027 и в колонке{" "}
             <span className="bold">Дата поступления с ВС/ЦТИ</span> указать
             смену с буквой смены
           </li>
           <li className="article__subtitle">
             Указать в отчете по выгрузке и в дневном отчете
+          </li>
+          <li className="article__subtitle">
+            <p>Выгрузить на склад по планшету</p>
+            <ol type="a" className="sublist">
+              <li>
+                SAP → Вход в среду RF → Цех сварки карт → Разгрузка карт →
+                Вписать номер карты → Вписать место → Подтвердить
+              </li>
+            </ol>
           </li>
         </ol>
       </div>

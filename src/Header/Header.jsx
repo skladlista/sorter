@@ -21,7 +21,9 @@ export default function Header(props) {
         <span />
       </label>
         <div className="header__activePage">
-            <div>{props.activePage}</div>
+            <NavLink to="sorter" onClick={props.MenuOnClick}>
+                Сортировщик-сдатчик
+            </NavLink>
         </div>
       <nav className="menu__box">
         <div>

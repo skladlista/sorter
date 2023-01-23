@@ -1,7 +1,7 @@
 export default function ExFilter() {
   return (
     <div id="unloading__ex-filter" className="article unloading__ex-filter">
-      <p className="article__title">ДОПОЛНИТЕЛЬНЫЙ ФИЛЬТР ДЛЯ ПОИСКА</p>
+      <p className="article__title">ДОПОЛНИТЕЛЬНЫЙ ФИЛЬТР ДЛЯ ПОИСКА В EXCEL</p>
       <div className="article__div">
         <ol>
           <li className="article__subtitle">

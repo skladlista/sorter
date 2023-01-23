@@ -30,6 +30,9 @@ header {
 
 @media screen and (max-width: 890px) {
   header {
+    a, a:visited{
+      padding: 0;
+    }
     .menu__btn{
       display: flex;
       /* используем flex для центрирования содержимого */
@@ -158,6 +161,10 @@ header {
 
 @media screen and (max-width: 425px) {
   header {
+      a, a:visited{
+        padding: 0;
+      }
+
     .menu__btn {
       display: flex;
       /* используем flex для центрирования содержимого */
