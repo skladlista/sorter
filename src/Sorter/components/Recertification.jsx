@@ -4,7 +4,7 @@ import sort from "../../assets/sort.jpg";
 export default function Recertification() {
   return (
     <div id="recertification" className="article recertification">
-      <p className="article__title">ПЕРЕАТТЕСТАЦИЯ ЛИСТА</p>
+      <p className="article__title">ПЕРЕАТТЕСТАЦИЯ ЛИСТОВ В 1С</p>
       <div className="article__div">
         <ol>
           <li className="article__subtitle">

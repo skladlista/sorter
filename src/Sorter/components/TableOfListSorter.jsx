@@ -17,8 +17,14 @@ export default function TableOfListSorter(props) {
         </li>
 
         <li onClick={topFunction}>
-          <NavLink className="tableOfList__link" to="recertification">
-            Переаттестация листа
+          <NavLink className="tableOfList__link" to="recertification-1C">
+            Переаттестация листов в 1С
+          </NavLink>
+        </li>
+
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="recertification-SAP">
+            Переаттестация листов в SAP
           </NavLink>
         </li>
 
@@ -147,6 +153,12 @@ export default function TableOfListSorter(props) {
         <li onClick={topFunction}>
           <NavLink className="tableOfList__link" to="find_sheets">
             КАК НАХОДИТЬ ЛИСТЫ В SAP
+          </NavLink>
+        </li>
+
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="update_classification_in_sap_ewm">
+            лист без ширины, толщины и т.п.
           </NavLink>
         </li>
 

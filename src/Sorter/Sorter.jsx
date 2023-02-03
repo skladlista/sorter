@@ -28,6 +28,8 @@ import React from "react";
 import CountRemainderToProduction from "./components/CountRemainderToProduction";
 import LoadingExternal from "./components/LoadingExternal";
 import PhoneNumbers from "./components/PhoneNumbers";
+import SapRecertification from "./components/SapRecertification";
+import UpdateClassificationInSapEwm from "./components/UpdateClassificationInSapEwm";
 
 export default function Sorter(props) {
     window.scrollTo(0, 0);
@@ -48,9 +50,15 @@ export default function Sorter(props) {
                 }
             />
             <Route
-                path="/recertification"
+                path="/recertification-1C"
                 element={
                     <Recertification />
+                }
+            />
+            <Route
+                path="/recertification-sap"
+                element={
+                    <SapRecertification />
                 }
             />
             <Route
@@ -200,6 +208,12 @@ export default function Sorter(props) {
                 path="/phone_numbers"
                 element={
                     <PhoneNumbers />
+                }
+            />
+            <Route
+                path="/update_classification_in_sap_ewm"
+                element={
+                    <UpdateClassificationInSapEwm />
                 }
             />
         </Routes>
