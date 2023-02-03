@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="update 23.01.2023" />
+    <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="add recertification in sap ewm and correct classification" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +32,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Frontend/2022/Projects/Instructions",
+    "last_opened_file_path": "D:/Frontend/2022/Projects/Instructions-sorter/src",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -102,6 +102,7 @@
       <workItem from="1674480307333" duration="485000" />
       <workItem from="1674480868777" duration="393000" />
       <workItem from="1674970714762" duration="334000" />
+      <workItem from="1675428489451" duration="810000" />
     </task>
     <task id="LOCAL-00001" summary="Add all project">
       <created>1667291052822</created>
@@ -250,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674970956243</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add recertification in sap ewm and correct classification">
+      <created>1675428624073</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1675428624073</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +306,7 @@
     <MESSAGE value="fix styles" />
     <MESSAGE value="add modifications" />
     <MESSAGE value="update 23.01.2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 23.01.2023" />
+    <MESSAGE value="add recertification in sap ewm and correct classification" />
+    <option name="LAST_COMMIT_MESSAGE" value="add recertification in sap ewm and correct classification" />
   </component>
 </project>
