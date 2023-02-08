@@ -1,10 +1,14 @@
 {
   "files": {
     "main.css": "/sorter/static/css/main.9ba4cea9.css",
-    "main.js": "/sorter/static/js/main.1d99095b.js",
+    "main.js": "/sorter/static/js/main.da21abad.js",
     "static/js/787.e2a10808.chunk.js": "/sorter/static/js/787.e2a10808.chunk.js",
+    "static/media/planning.png": "/sorter/static/media/planning.15f0199819bd313dc41d.png",
     "static/media/request-template.jpg": "/sorter/static/media/request-template.1edc4efbb6167751c024.jpg",
+    "static/media/block_zapas.png": "/sorter/static/media/block_zapas.322520f2f85f3e856946.png",
+    "static/media/Monitor.png": "/sorter/static/media/Monitor.0b0d840b7f6f89894da3.png",
     "static/media/L027.jpg": "/sorter/static/media/L027.1d66b463504ac6f73f8a.jpg",
+    "static/media/group_places.png": "/sorter/static/media/group_places.6c8fb08f9e94fcebb448.png",
     "static/media/sklad3037-2.jpg": "/sorter/static/media/sklad3037-2.ce979eca2294a1cd6290.jpg",
     "static/media/sort.jpg": "/sorter/static/media/sort.6a89a9ccd768ecaa5838.jpg",
     "static/media/report-unloading.jpg": "/sorter/static/media/report-unloading.b8e34269073fed107037.jpg",
@@ -15,11 +19,11 @@
     "static/media/letter-report2.jpg": "/sorter/static/media/letter-report2.8d286869a40c7e23b103.jpg",
     "index.html": "/sorter/index.html",
     "main.9ba4cea9.css.map": "/sorter/static/css/main.9ba4cea9.css.map",
-    "main.1d99095b.js.map": "/sorter/static/js/main.1d99095b.js.map",
+    "main.da21abad.js.map": "/sorter/static/js/main.da21abad.js.map",
     "787.e2a10808.chunk.js.map": "/sorter/static/js/787.e2a10808.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ba4cea9.css",
-    "static/js/main.1d99095b.js"
+    "static/js/main.da21abad.js"
   ]
 }
