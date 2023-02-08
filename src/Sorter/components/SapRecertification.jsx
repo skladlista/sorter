@@ -1,4 +1,4 @@
-import createTask2 from "../../assets/create-task2.jpg";
+import createTask2 from "../../assets/create-task.jpg";
 
 export default function SapRecertification(props) {
     return (

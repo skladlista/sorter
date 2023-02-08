@@ -8,42 +8,47 @@ export default function FindSheets() {
         <ol>
           {/* для создания слудющих заголовков дублируй div внизу */}
           <li className="article__subtitle">
-            <p>
-              SAP → Монитор → Запас и место → Складское место → Единица
-              обработки → В окне можно выбирать:
-            </p>
-            <ol>
-              <li>
-                Склад (чтобы найти листы на определенном складе) - HSS1
-                (внутренний) или XSS1 (внешний)
-              </li>
-              <li>
-                Складское место
-                <ul>
-                  <li>
-                    наши места начинаются на <span className="bold">SH</span> –
-                  </li>
-                  <li>
-                    <span className="bold">SH-8-1</span> – место брака
-                  </li>
-                </ul>
-              </li>
-              <li>
-                Единица обработки → Из склада листа копируем{" "}
-                <span className="bold">ЕДИНИЦЫ ОБРАБОТКИ</span> и вставляем
-                через множественный выбор → Вставить
-                <span>
-                  <img src={find1} alt="..." />
-                </span>
-              </li>
-              <li>
-                Идентификатор ЕО (для поиска по номеру листа) → Вставляем нужные
-                номера листов через множественный выбор → Вставить
-                <span>
-                  <img src={find1} alt="..." />
-                </span>
-              </li>
-            </ol>
+            SAP → Монитор → Запас и место → Складское место → Единица обработки
+          </li>
+          <li className="article__subtitle">
+            <details>
+              <summary>
+                <p>Заполнить форму (не все поля обязательны)</p>
+              </summary>
+              <ol>
+                <li className="article__subtitle">
+                  Склад (чтобы найти листы на определенном складе) - HSS1
+                  (внутренний) или XSS1 (внешний)
+                </li>
+                <li className="article__subtitle">
+                  Складское место
+                  <ul>
+                    <li>
+                      наши места начинаются на <span className="bold">SH</span>{" "}
+                      –
+                    </li>
+                    <li>
+                      <span className="bold">SH-8-1</span> – место брака
+                    </li>
+                  </ul>
+                </li>
+                <li className="article__subtitle">
+                  Единица обработки → Из склада листа копируем{" "}
+                  <span className="bold">ЕДИНИЦЫ ОБРАБОТКИ</span> и вставляем
+                  через множественный выбор → Вставить
+                  <span>
+                    <img src={find1} alt="..." />
+                  </span>
+                </li>
+                <li className="article__subtitle">
+                  Идентификатор ЕО (для поиска по номеру листа) → Вставляем
+                  нужные номера листов через множественный выбор → Вставить
+                  <span>
+                    <img src={find1} alt="..." />
+                  </span>
+                </li>
+              </ol>
+            </details>
           </li>
         </ol>
       </div>
