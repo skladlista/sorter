@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="add recertification in sap ewm and correct classification" />
+    <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="08.02.2023">
+      <change afterPath="$PROJECT_DIR$/src/assets/Monitor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/ZPLP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/block_zapas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/chevron-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/chevron-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/copy_button.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/group_places.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/planning.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/copy_button.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/copy_button.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicStyles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicStyles.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +56,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Frontend\2022\Projects\Instructions-sorter\src" />
+      <recent name="D:\Frontend\2022\Projects\Instructions-sorter\src\assets" />
       <recent name="D:\Frontend\2022\Projects\Instructions-sorter\src\Sorter" />
     </key>
   </component>
@@ -104,6 +118,8 @@
       <workItem from="1674970714762" duration="334000" />
       <workItem from="1675428489451" duration="810000" />
       <workItem from="1675431735288" duration="668000" />
+      <workItem from="1675860986233" duration="288000" />
+      <workItem from="1675861373219" duration="151000" />
     </task>
     <task id="LOCAL-00001" summary="Add all project">
       <created>1667291052822</created>
@@ -266,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675431756290</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="08.02.2023">
+      <created>1675861010994</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1675861010994</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,6 +338,7 @@
     <MESSAGE value="add modifications" />
     <MESSAGE value="update 23.01.2023" />
     <MESSAGE value="add recertification in sap ewm and correct classification" />
-    <option name="LAST_COMMIT_MESSAGE" value="add recertification in sap ewm and correct classification" />
+    <MESSAGE value="08.02.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="08.02.2023" />
   </component>
 </project>

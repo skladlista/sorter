@@ -1,3 +1,4 @@
+import addSheetInStart from "../../assets/addSheetInStart.png"
 export default function AddSheetInStart() {
   return (
     <div id="add__sheet__in__start" className="article add__sheet__in__start">
@@ -13,10 +14,6 @@ export default function AddSheetInStart() {
             В 1С &#8594; Документы &#8594; Задача листа в производство &#8594;
             Найти документ с этим листом &#8594; Отменить его и все после него
           </li>
-          <li className="article__subtitle">
-            Задать лист по SAP вручную (Сделать задание, запланировать,
-            переместить в карман, отправить в производство)
-          </li>
 
           <li className="article__subtitle">
             <details>
@@ -27,6 +24,18 @@ export default function AddSheetInStart() {
                 <li>
                   Задать в 1С лист самостоятельно, а в SAP лист перекинуть на
                   склад 3037
+                  <ul>
+                    <li>Чтобы задать лист в 1С самостоятельно нужно</li>
+                    <li>Зайти в 1С  Задача листа в производство</li>
+                    <li>«Создать» → Указать свою смену</li>
+                    <li>Подразделение – Склад листа</li>
+                    <li>Основание – выбрать ПЗ, под которое будет задаваться лист</li>
+                    <li>добавить из таб документа →
+                    в таблицу внести необходимые параметры</li>
+                    <li>«провести и закрыть»</li>
+                    <img src={addSheetInStart} alt=""/>
+
+                  </ul>
                 </li>
                 <li>
                   Задать лист по SAP вручную (Сделать задание, запланировать,

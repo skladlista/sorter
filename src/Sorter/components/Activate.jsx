@@ -1,3 +1,5 @@
+import activate from "../../assets/activate.png"
+
 export default function Activate() {
   return (
     <div id="unloading__activate" className="article unloading__activate">
@@ -5,17 +7,18 @@ export default function Activate() {
       <div className="article__div">
         <ol>
           {/* для создания слудющих заголовков дублируй div внизу */}
-          <li className="article__subtitle">
-
+          <div className="article__subtitle">
               В определенный момент, когда предыдущее задание завершиться и в
               складском месте KARMAN не будет ни одного листа, необходимо будет
               работать по другому заданию, его надо будет его активировать
-          </li>
+          </div>
           <li className="article__subtitle">
-            Для этого в ZPLP надо выделить строку нужного задания, далее нажать:
-            <br />
-            Задание → Активировать задание для производства
+              Запускаем транзакцию SAP → ZPLP – EWM: Планирование производства
           </li>
+            <li className="article__subtitle">
+                Выбираем нужное нам задание → Задание → Активировать планирование для Произв.
+            </li>
+            <img src={activate} alt=""/>
         </ol>
       </div>
     </div>

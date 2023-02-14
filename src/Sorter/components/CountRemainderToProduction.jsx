@@ -14,18 +14,18 @@ export default function CountRemainderToProduction() {
           <li className="article__subtitle">
             <details>
               <summary>
-                <p>Определить количество сформованных труб:</p>
+                <p>Определить количество сформованных труб</p>
               </summary>
               <ol type="a" className="sublist">
                 <li>
                   1С: Отчеты → справка по производству → за сутки → компактный:
-                  выбираем день работы
-                </li>
-                <li>
-                  Найти по номеру ПЗ нужное задание и записать число со столба
-                  ВФ <br />
+                  выбираем день работы<br />
                   *либо можно найти по номеру задания (тогда покажет число за
                   всё время действия задания)
+                </li>
+                <li>
+                  Найти по номеру ПЗ нужное задание и записать число со столбца
+                  ВФ
                 </li>
               </ol>
             </details>
@@ -34,7 +34,7 @@ export default function CountRemainderToProduction() {
           <li className="article__subtitle">
             <details>
               <summary>
-                <p>Определить количество листов на линии:</p>
+                <p>Определить количество листов на линии</p>
               </summary>
               <ol type="a" className="sublist">
                 <li>

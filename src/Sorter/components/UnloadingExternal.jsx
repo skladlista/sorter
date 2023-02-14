@@ -9,26 +9,7 @@ export default function UnloadingExternal() {
       <p className="article__title">ПЕРЕМЕЩЕНИЕ С ВНЕШНЕГО СКЛАДА</p>
       <div className="article__div">
         <ol>
-          <li className="article__subtitle">
-            <details>
-              <summary>
-                <p>
-                  Перед выгрузкой необходимо проверить ПРОВОДКИ ПЕРЕНОСА (чтобы
-                  не было стоп-листов с ВС)
-                </p>
-              </summary>
-              <ol type="a" className="sublist">
-                <li>
-                  Зайти в САП → Монитор управления складами → Проводки переноса
-                </li>
-                <li>Найти свои листы (искать по партии сап)</li>
-                <li>
-                  Если какие-то документы красные → Нажать на этот документ →
-                  Кнопка с весами (Проверить) → Сохранить
-                </li>
-              </ol>
-            </details>
-          </li>
+
           <li className="article__subtitle">
             <details>
               <summary>
@@ -63,6 +44,26 @@ export default function UnloadingExternal() {
             </details>
           </li>
 
+          <li className="article__subtitle">
+            <details>
+              <summary>
+                <p>
+                  Перед выгрузкой необходимо проверить ПРОВОДКИ ПЕРЕНОСА
+                </p>
+              </summary>
+              <ol type="a" className="sublist">
+                  <h5>Делать только если в платформах листы в блок-запасе</h5>
+                <li>
+                  Зайти в САП → Монитор управления складами → Проводки переноса
+                </li>
+                <li>Найти свои листы (искать по партии сап)</li>
+                <li>
+                  Если какие-то документы красные → Нажать на этот документ →
+                  Кнопка с весами (Проверить) → Сохранить
+                </li>
+              </ol>
+            </details>
+          </li>
           <li className="article__subtitle">
             <details>
               <summary>
