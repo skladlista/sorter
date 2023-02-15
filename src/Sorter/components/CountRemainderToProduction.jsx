@@ -6,11 +6,11 @@ export default function CountRemainderToProduction() {
       <p className="article__title">ПОДСЧЁТ ОСТАТКА ЛИСТА К ЗАДАЧЕ</p>
       <div className="article__div">
         <ol>
-          <li className="article__subtitle">
+          <div className="article__subtitle">
             Не всегда в SAP может быть достоверное число, в силу того, что когда
             вынимаем листы из кармана/производства число некоторых позиций
             остается неизменно
-          </li>
+          </div>
           <li className="article__subtitle">
             <details>
               <summary>
@@ -19,7 +19,8 @@ export default function CountRemainderToProduction() {
               <ol type="a" className="sublist">
                 <li>
                   1С: Отчеты → справка по производству → за сутки → компактный:
-                  выбираем день работы<br />
+                  выбираем день работы
+                  <br />
                   *либо можно найти по номеру задания (тогда покажет число за
                   всё время действия задания)
                 </li>

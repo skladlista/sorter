@@ -1,6 +1,8 @@
 import deletePicture from "../../assets/delete.jpg";
 import otherMethods from "../../assets/other-methods.jpg";
 import dopOthcet from "../../assets/dop-othcet.jpg";
+import gatesDelete from "../../assets/gatesDelete.png";
+import cancelProduction from "../../assets/cancelProduction.png";
 
 export default function UnloadingStorno() {
   return (
@@ -11,50 +13,28 @@ export default function UnloadingStorno() {
       <div className="article__div">
         <ol>
           <li className="article__subtitle">
-            Зайти в SAP EWM → Планирование приемки ЛП → Выбрать вагон и нажать
-            ЗАГОЛОВОК → Скопировать ЕО
-          </li>
-          <li className="article__subtitle">
-            Перейти в МОНИТОР → Документы → Складская задача
-          </li>
-          <li className="article__subtitle">
-            В новом окне удалить все значения
-            <span>
-              <img src={deletePicture} alt="" />
-            </span>
-          </li>
-          <li className="article__subtitle"> Установить галки </li>
-          <li className="article__subtitle">
-            <span className="bold">
-              Откр. СЗ, Исходные данные, Целевые данные
-            </span>{" "}
-            → Добавить в ячейку скопированные ЕО через множественный выбор →{" "}
-            Выполнить (F8)
-          </li>
-          <li className="article__subtitle">
-            После нахождения выделить все найденное
-          </li>
-          <li className="article__subtitle">
-            Нажать Другие методы → Сторнировать складскую задачу
-            <br />
-            <span>
-              <img src={otherMethods} alt="" />
-            </span>
-          </li>
-          <li className="article__subtitle">
             <details>
               <summary>
-                <p>Убрать вагон с ворот</p>
+                <p>Снять вагон с ворот в SAP</p>
               </summary>
-              <ol className={"sublist"}>
-                <li>Найти вагон в ZPRIEM (Планирование приемки ЛП)</li>
-                <li>Зайти во входящую поставку (нажать на номер вагона)</li>
-                <li>Открыть вкладку ЕО</li>
-                <li>Выделить всю таблицу</li>
-                <li>Нажать сторнировать ПМ</li>
+              <ol>
+                <li className="article__subtitle">
+                  Найти нужный вагон в ZPRIEM (Планирование приемки ЛП)
+                </li>
+                <li className="article__subtitle">Выделить (1)</li>
+                <li className="article__subtitle">
+                  Нажать кнопку{" "}
+                  <span className="bold">Снять вагон с ворот</span> (2)
+                </li>
+                <img src={gatesDelete} alt="..." />
+                <li className="article__subtitle">
+                  В появившемся информационном окне нажать{" "}
+                  <span className="bold">Да</span>
+                </li>
               </ol>
             </details>
           </li>
+
           <li className="article__subtitle">
             <details>
               <summary>
@@ -85,6 +65,7 @@ export default function UnloadingStorno() {
                 <li>
                   Выделить их и в контекстном меню нажать отменить проведение
                 </li>
+                <img src={cancelProduction} alt="..." />
               </ol>
             </details>
           </li>

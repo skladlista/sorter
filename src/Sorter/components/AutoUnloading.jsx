@@ -1,4 +1,5 @@
 import otherMethods from "../../assets/other-methods.jpg";
+import unloading from "../../assets/unloading.png";
 
 export default function ExFilter() {
   return (
@@ -14,6 +15,7 @@ export default function ExFilter() {
           {/* для создания слудющих заголовков дублируй li внизу */}
           <li className="article__subtitle">
             Выделить вагон в ПЛАНИРОВАНИИ ПРИЕМКИ ЛП, нажать ПОЗИЦИИ
+            <img src={unloading} alt="..." />
           </li>
           <li className="article__subtitle">
             Скопировать ЕО (ЕДИНИЦА ОБРАБОТКИ)
