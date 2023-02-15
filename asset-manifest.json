@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sorter/static/css/main.5d1dff30.css",
-    "main.js": "/sorter/static/js/main.164b0dcd.js",
+    "main.js": "/sorter/static/js/main.a7a7e862.js",
     "static/js/787.e2a10808.chunk.js": "/sorter/static/js/787.e2a10808.chunk.js",
     "static/media/planning.png": "/sorter/static/media/planning.15f0199819bd313dc41d.png",
     "static/media/sapRecertification.png": "/sorter/static/media/sapRecertification.d9d387e28d20b6db166f.png",
@@ -9,6 +9,7 @@
     "static/media/block_zapas.png": "/sorter/static/media/block_zapas.322520f2f85f3e856946.png",
     "static/media/comeback1.png": "/sorter/static/media/comeback1.60a284432a4b62176579.png",
     "static/media/Monitor.png": "/sorter/static/media/Monitor.0b0d840b7f6f89894da3.png",
+    "static/media/asutl.png": "/sorter/static/media/asutl.74a37047df7c5331ff77.png",
     "static/media/L027.jpg": "/sorter/static/media/L027.1d66b463504ac6f73f8a.jpg",
     "static/media/group_places.png": "/sorter/static/media/group_places.6c8fb08f9e94fcebb448.png",
     "static/media/sklad3037-2.jpg": "/sorter/static/media/sklad3037-2.ce979eca2294a1cd6290.jpg",
@@ -18,10 +19,12 @@
     "static/media/report-unloading.jpg": "/sorter/static/media/report-unloading.b8e34269073fed107037.jpg",
     "static/media/comeback4.png": "/sorter/static/media/comeback4.d115fb539bfd6a98f9fb.png",
     "static/media/ExWarehouseReport.jpg": "/sorter/static/media/ExWarehouseReport.9a77a148d46c642ce6a6.jpg",
+    "static/media/gatesDelete.png": "/sorter/static/media/gatesDelete.1095f53628db47e3a009.png",
     "static/media/comeback2.png": "/sorter/static/media/comeback2.83b74b0765641304c327.png",
     "static/media/comeback3.png": "/sorter/static/media/comeback3.cb174ac5c59920a3e942.png",
     "static/media/zerp.png": "/sorter/static/media/zerp.22b42f5a072ac21e5835.png",
     "static/media/letter-report3.jpg": "/sorter/static/media/letter-report3.92e2451ddd8c3740bb52.jpg",
+    "static/media/cancelProduction.png": "/sorter/static/media/cancelProduction.6a3c20ebac5fe860d1c8.png",
     "static/media/dop-othcet.jpg": "/sorter/static/media/dop-othcet.29b925cb107126449bbe.jpg",
     "static/media/other-methods.jpg": "/sorter/static/media/other-methods.5481fd43ab856d4ac5b5.jpg",
     "static/media/letter-report2.jpg": "/sorter/static/media/letter-report2.8d286869a40c7e23b103.jpg",
@@ -29,11 +32,11 @@
     "static/media/chevron-down.svg": "/sorter/static/media/chevron-down.0ae786137eb7c77c3434.svg",
     "static/media/chevron-right.svg": "/sorter/static/media/chevron-right.9c3fa94abd31d15c03eb.svg",
     "main.5d1dff30.css.map": "/sorter/static/css/main.5d1dff30.css.map",
-    "main.164b0dcd.js.map": "/sorter/static/js/main.164b0dcd.js.map",
+    "main.a7a7e862.js.map": "/sorter/static/js/main.a7a7e862.js.map",
     "787.e2a10808.chunk.js.map": "/sorter/static/js/787.e2a10808.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d1dff30.css",
-    "static/js/main.164b0dcd.js"
+    "static/js/main.a7a7e862.js"
   ]
 }
