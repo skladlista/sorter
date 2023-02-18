@@ -4,7 +4,6 @@ import groupPlaces from "../../assets/group_places.png";
 import blockZapas from "../../assets/block_zapas.png";
 import ZPLP from "../../assets/ZPLP.png";
 import planning from "../../assets/planning.png";
-
 export default function CheckSsz() {
   return (
     <div id="ssz-check" className="article ssz-check">
