@@ -1,6 +1,9 @@
 // @import "reset.scss";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 
+body{
+  background: rgb(253, 253, 253);
+}
 details {
   cursor: pointer;
 
@@ -31,6 +34,13 @@ details {
 details[open] > summary::after {
   content: url("../src/assets/chevron-down.svg");
 }
+details summary {
+  cursor: pointer;
+  transition: margin 250ms ease-out;
+}
+details[open] summary {
+  margin-bottom: 10px;
+}
 
 // details[open] summary::before {
 //   content: "";
@@ -38,6 +48,10 @@ details[open] > summary::after {
 
 ol {
   li {
+    &::marker{
+      color: rgba(99, 36, 116, 0.86);
+      font-weight: 600;
+    }
     // border-bottom: 1px solid #5F5F5FFF;
     // list-style: none;
 
@@ -56,6 +70,7 @@ ol {
   --main-bg-color3: #326889; //sidebar's
   --main-bg-color4: #fff; //
   --main-bg-color5: #17763d; //spoiler
+  //color: white;
 
   ol {
     margin: 0;
@@ -95,12 +110,12 @@ p {
 
   &__title {
     // color: #fff;
-    border-bottom: 1px solid #5f5f5f;
+    //border-bottom: 1px solid #5f5f5f;
     font-weight: 600;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-family: "Roboto", sans-serif;
     padding: 1.5rem;
-    background: linear-gradient(271.77deg, #5259af 26.92%, #1b2172 95.16%);
+    background: linear-gradient(271.77deg, #712980 26.92%, #2e357f 95.16%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -156,6 +171,9 @@ p {
       font-family: "Roboto", sans-serif;
 
       li {
+        &::marker{
+          font-weight: 400;
+        }
         font-size: 1rem;
         font-family: "Roboto", sans-serif;
         padding: 1rem 0.5rem 1rem 0;
@@ -166,8 +184,14 @@ p {
 
     p {
       display: inline;
-      font-weight: 500;
-      color: #437fa1;
+      font-weight: 600;
+      color: #4e4e4e;
+      background: linear-gradient(150.77deg, #712980 26.92%, #2e357f 95.16%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+
       &:hover {
         color: #133f58;
       }
@@ -220,6 +244,16 @@ p {
       text-transform: lowercase;
       margin: 20px;
       padding-left: 10px;
+      //a{
+      //  color: #fff;
+      //
+      //  &:visited{
+      //    color: #fff;
+      //  }
+      //  &:hover {
+      //    color: #e37231;
+      //  }
+      //}
 
       &:hover {
         border-left: 1px solid var(--main-bg-color3);
@@ -396,8 +430,14 @@ div:target > div {
     padding: 80px 0;
     list-style: none;
     text-align: center;
-    background-color: var(--main-bg-color3);
-    box-shadow: 1px 0px 6px var(--main-bg-color3);
+    /* From https://css.glass */
+    background: rgba(99, 36, 116, 0.86);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    border: 1px solid rgba(99, 36, 116, 0.97);
+
     .tableOfList__link {
       color: white;
     }
@@ -418,6 +458,11 @@ div:target > div {
 
   .article {
     padding-right: 0;
+    //&__subtitle {
+    //  p:hover{
+    //    color: #e37231;
+    //  }
+    //}
   }
 }
 
