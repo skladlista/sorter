@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sorter/static/css/main.1d445dd6.css",
-    "main.js": "/sorter/static/js/main.8401316e.js",
+    "main.js": "/sorter/static/js/main.cb6c63dd.js",
     "static/js/787.e2a10808.chunk.js": "/sorter/static/js/787.e2a10808.chunk.js",
     "static/media/planning.png": "/sorter/static/media/planning.15f0199819bd313dc41d.png",
     "static/media/sapRecertification.png": "/sorter/static/media/sapRecertification.d9d387e28d20b6db166f.png",
@@ -24,7 +24,10 @@
     "static/media/comeback3.png": "/sorter/static/media/comeback3.cb174ac5c59920a3e942.png",
     "static/media/zerp.png": "/sorter/static/media/zerp.22b42f5a072ac21e5835.png",
     "static/media/letter-report3.jpg": "/sorter/static/media/letter-report3.92e2451ddd8c3740bb52.jpg",
+    "static/media/recertIntegration.png": "/sorter/static/media/recertIntegration.bc83b8fb335b77a80835.png",
     "static/media/cancelProduction.png": "/sorter/static/media/cancelProduction.6a3c20ebac5fe860d1c8.png",
+    "static/media/recert1.png": "/sorter/static/media/recert1.e1da6f40b86a496d6161.png",
+    "static/media/recert2.png": "/sorter/static/media/recert2.cbc9cd9454a4c9a2424a.png",
     "static/media/dop-othcet.jpg": "/sorter/static/media/dop-othcet.29b925cb107126449bbe.jpg",
     "static/media/other-methods.jpg": "/sorter/static/media/other-methods.5481fd43ab856d4ac5b5.jpg",
     "static/media/letter-report2.jpg": "/sorter/static/media/letter-report2.8d286869a40c7e23b103.jpg",
@@ -32,11 +35,11 @@
     "static/media/chevron-down.svg": "/sorter/static/media/chevron-down.ada80e92d65b4f983752.svg",
     "static/media/chevron-right.svg": "/sorter/static/media/chevron-right.ac54ca7f194624a8c112.svg",
     "main.1d445dd6.css.map": "/sorter/static/css/main.1d445dd6.css.map",
-    "main.8401316e.js.map": "/sorter/static/js/main.8401316e.js.map",
+    "main.cb6c63dd.js.map": "/sorter/static/js/main.cb6c63dd.js.map",
     "787.e2a10808.chunk.js.map": "/sorter/static/js/787.e2a10808.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1d445dd6.css",
-    "static/js/main.8401316e.js"
+    "static/js/main.cb6c63dd.js"
   ]
 }
