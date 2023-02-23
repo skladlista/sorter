@@ -16,27 +16,31 @@ export default function SapRecertification(props) {
             Сверху выбрать <span className="bold">КЛАССИФИКАЦИЯ </span>(1)
           </li>
           <li className="article__subtitle">
-            Отфильтровать <span className="bold">НАЗВАНИЕ ПРИЗНАКА </span>(2)
-            <ol>
-              <li className="article__subtitle">
-                Если у листа не хватает какого-либо признака (марки стали,
-                например), его нужно обновить из SAP ERP
-              </li>
-              <li className="article__subtitle">
-                Для этого необходимо в мониторе выделить данный лист → Другие
-                методы
-                <span>
-                  <img src={createTask2} alt="" />
-                </span>{" "}
-                → Z:ERP&nbsp;-&nbsp;Обновить классификацию
-                <div>
-                  <img src={zerp} alt="" />
-                </div>
-              </li>
-              <li className="article__subtitle">
-                Отфильтровать НАЗВАНИЕ ПРИЗНАКА повторно
-              </li>
-            </ol>
+            <details>
+              <summary>
+                <p>Отфильтровать НАЗВАНИЕ ПРИЗНАКА(2)</p>
+              </summary>
+              <ol>
+                <li className="article__subtitle">
+                  Если у листа не хватает какого-либо признака (марки стали,
+                  например), его нужно обновить из SAP ERP
+                </li>
+                <li className="article__subtitle">
+                  Для этого необходимо в мониторе выделить данный лист → Другие
+                  методы
+                  <span>
+                    <img src={createTask2} alt="" />
+                  </span>{" "}
+                  → Z:ERP&nbsp;-&nbsp;Обновить классификацию
+                  <div>
+                    <img src={zerp} alt="" />
+                  </div>
+                </li>
+                <li className="article__subtitle">
+                  Отфильтровать НАЗВАНИЕ ПРИЗНАКА повторно
+                </li>
+              </ol>
+            </details>
           </li>
           <li className="article__subtitle">
             Выделить всё (3) и нажать <span className="bold">ОбнКласс </span>(4)

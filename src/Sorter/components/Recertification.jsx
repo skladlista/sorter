@@ -1,5 +1,10 @@
 import dateZadacha from "../../assets/date-zadacha.jpg";
 import sort from "../../assets/sort.jpg";
+import recert1 from "../../assets/recert1.png";
+import recert2 from "../../assets/recert2.png";
+import recertIntegration from "../../assets/recertIntegration.png";
+import recertRequest from "../../assets/recertRequest.png";
+import recertSoglasovanya from "../../assets/recertSoglasovanya.png";
 
 export default function Recertification() {
   return (
@@ -127,29 +132,92 @@ export default function Recertification() {
               </ol>
             </details>
           </li>
+
           <li className="article__subtitle">
-            Открыть в 1С &#8594; Документы &#8594; Изменение размеров листа
-            &#8594; Создать
-          </li>
-          <li className="article__subtitle">
-            Можно вставлять по одному листу через кнопку{" "}
-            <span className="bold">
-              ДОБАВИТЬ &#8594; Вписать номер листа и плавку &#8594;{" "}
-            </span>{" "}
-            В блоке <span className="bold">«СТАЛО»</span> записать те параметры,
-            которые надо изменить в соответствии с{" "}
-            <span className="bold">ПРОИЗВОДСТВЕННЫМ ЗАДАНИЕМ</span> в 1С
-          </li>
-          <li className="article__subtitle">
-            Или можно вставить сразу несколько листов, нажав кнопку{" "}
-            <span className="bold">ДОБАВИТЬ ИЗ ТАБ. ДОКУМЕНТА</span>
-          </li>
-          <li className="article__subtitle">
-            Вставить сформированную до этого таблицу в открывшееся окно &#8594;
-            проверить все колонки на правильность (марку стали и класс прочности
-            заполнить)&#8594; нажать <span className="bold">ДАЛЕЕ</span> &#8594;
-            нажать
-            <span className="bold"> ПРОВЕСТИ И ЗАКРЫТЬ</span>
+            <details>
+              <summary>
+                <p>Создать документ «Изменение размеров листа»</p>
+              </summary>
+              <ol>
+                <li className="article__subtitle">
+                  Открыть в 1С &#8594; Документы &#8594; Изменение размеров
+                  листа &#8594; Создать
+                </li>
+                <li className="article__subtitle">
+                  Можно вставлять по одному листу через кнопку{" "}
+                  <span className="bold">
+                    ДОБАВИТЬ &#8594; Вписать номер листа и плавку &#8594;{" "}
+                  </span>{" "}
+                  В блоке <span className="bold">«СТАЛО»</span> записать те
+                  параметры, которые надо изменить в соответствии с{" "}
+                  <span className="bold">ПРОИЗВОДСТВЕННЫМ ЗАДАНИЕМ</span> в 1С
+                </li>
+                <li className="article__subtitle">
+                  Или можно вставить сразу несколько листов, нажав кнопку{" "}
+                  <span className="bold">ДОБАВИТЬ ИЗ ТАБ. ДОКУМЕНТА</span>
+                </li>
+                <li className="article__subtitle">
+                  Вставить сформированную до этого таблицу в открывшееся окно
+                  &#8594; проверить все колонки на правильность (марку стали и
+                  класс прочности заполнить)&#8594; нажать{" "}
+                  <span className="bold">ДАЛЕЕ</span>
+                </li>
+                <li className="article__subtitle">
+                  Значения группы колонок «Стало» должны быть одинаковы. Не
+                  допускаются различные значения в одном документе.
+                </li>
+                <li className="article__subtitle">
+                  <details>
+                    <summary>
+                      <p>Отправить на согласование</p>
+                    </summary>
+                    <ol>
+                      <li>Во вкладке «Дополнительно» заполнить поля:</li>
+                      <ol>
+                        <li className="article__subtitle">
+                          Номер акта - обязательно для заполнения
+                          <br />
+                          Формат поля «Номер акта» имеет вид ХХХХ-ХХ либо ХХХХ,
+                          где Х – цифра от 0 до 9. Пример: 0124-01, 0035
+                        </li>
+                        <li className="article__subtitle">
+                          Дата акта - обязательно для заполнения
+                        </li>
+                        <li className="article__subtitle">Ответственный ОТК</li>
+                        <img src={recert1} />
+                      </ol>
+                      <li>Записать документ</li>
+                      <li>Нажать на кнопку «Отправить на согласование»</li>
+                      <img src={recert2} />
+                      <li>Система 1С выведет вопрос:</li>
+                      <img src={recertRequest} />
+                      <li>
+                        После нажатия «Да» - сотрудникам ОТК будет отправлено
+                        сообщение email вида:
+                      </li>
+                      <img src={recertIntegration} />
+                      <li>
+                        Далее сотрудник ОТК находит данный документ в списке
+                        документов «Изменение размеров листа», открывает,
+                        проверяет и нажимает кнопку «Согласовать»
+                      </li>
+                      <li>
+                        После нажатия на кнопку «Согласовать», сотруднику будет
+                        задан вопрос:
+                      </li>
+                      <img src={recertSoglasovanya} />
+                      <li>
+                        После нажатия «Да» документ автоматически проводится.
+                      </li>
+                      <li>
+                        <span style={{ color: "red" }}>Внимание!!! </span>После
+                        согласования изменить данные в документе будет нельзя!
+                      </li>
+                    </ol>
+                  </details>
+                </li>
+              </ol>
+            </details>
           </li>
         </ol>
       </div>

@@ -15,12 +15,11 @@ export default function ProductionSheet() {
             <span className="bold">СКЛАДЕ ЛИСТА</span>
           </li>
           <li className="article__subtitle">
-            Отфильтровать в колонке <span className="bold">ДАТА ЗАДАЧИ</span>{" "}
-            самую последнюю дату
-          </li>
-          <li className="article__subtitle">
             Установить фильтр от А до Я в колонке{" "}
             <span className="bold">№ листа ТЭСЦ</span>
+          </li>
+          <li className="article__subtitle">
+            Установить курсор на любом <span className="bold">№ листа ТЭСЦ</span> и нажать <span className="bold">Ctrl + ↓</span>
           </li>
           <li className="article__subtitle">
             В 1С в{" "}
