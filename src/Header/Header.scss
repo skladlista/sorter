@@ -4,36 +4,36 @@ header {
   top: 0;
   width: 100%;
   height: 80px;
-  background-color: var(--main-bg-color2);
-  nav{
+  background: linear-gradient(271.77deg, #712980 26.92%, #2e357f 95.16%);
+
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #5c5c5c;
+  nav {
     display: flex;
     height: 80px;
     align-items: center;
     justify-content: space-around;
   }
 
-  a, a:visited{
+  a,
+  a:visited {
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
   }
   a:hover {
-    color: #ffedd1;
+    color: #e37231;
   }
-  .header__activePage{
+  .header__activePage {
     display: none;
     color: #fff;
   }
-
 }
 
 @media screen and (max-width: 890px) {
   header {
-    a, a:visited{
-      padding: 0;
-    }
-    .menu__btn{
+    .menu__btn {
       display: flex;
       /* используем flex для центрирования содержимого */
       align-items: center;
@@ -61,12 +61,12 @@ header {
     }
 
     /* добавляем "гамбургер" */
-    .menu__btn>span,
-    .menu__btn>span::before,
-    .menu__btn>span::after,
-    .menu__btn2>span,
-    .menu__btn2>span::before,
-    .menu__btn2>span::after {
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after,
+    .menu__btn2 > span,
+    .menu__btn2 > span::before,
+    .menu__btn2 > span::after {
       display: block;
       position: absolute;
       width: 100%;
@@ -74,15 +74,15 @@ header {
       background-color: #fff;
     }
 
-    .menu__btn>span::before,
-    .menu__btn2>span::before {
-      content: '';
+    .menu__btn > span::before,
+    .menu__btn2 > span::before {
+      content: "";
       top: -8px;
     }
 
-    .menu__btn>span::after,
-    .menu__btn2>span::after {
-      content: '';
+    .menu__btn > span::after,
+    .menu__btn2 > span::after {
+      content: "";
       top: 8px;
     }
 
@@ -102,9 +102,19 @@ header {
       padding: 20px 0;
       list-style: none;
       text-align: center;
-      background-color: #446ae9;
-      div{
-        margin-bottom: 20px
+      /* From https://css.glass */
+      background: rgba(36, 43, 116, 0.86);
+      border-radius: 16px;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(13.5px);
+      -webkit-backdrop-filter: blur(13.5px);
+      border: 1px solid rgba(36, 43, 116, 0.97);
+
+
+      div {
+        margin-bottom: 20px;
       }
     }
 
@@ -113,42 +123,38 @@ header {
       display: block;
       padding: 12px 24px;
       color: #333;
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", sans-serif;
       font-size: 20px;
       font-weight: 600;
       text-decoration: none;
     }
 
     .menu__item:hover {
-      background-color: #CFD8DC;
+      background-color: #cfd8dc;
     }
-    #menu__toggle:checked~.menu__btn>span,
-    #menu__toggle2:checked~.menu__btn2>span {
+    #menu__toggle:checked ~ .menu__btn > span,
+    #menu__toggle2:checked ~ .menu__btn2 > span {
       transform: rotate(45deg);
     }
 
-    #menu__toggle:checked~.menu__btn>span::before,
-    #menu__toggle2:checked~.menu__btn2>span::before,
-
-    {
+    #menu__toggle:checked ~ .menu__btn > span::before,
+    #menu__toggle2:checked ~ .menu__btn2 > span::before {
       top: 0;
       transform: rotate(0);
     }
 
-    #menu__toggle:checked~.menu__btn>span::after,
-    #menu__toggle2:checked~.menu__btn2>span::after,
-    {
+    #menu__toggle:checked ~ .menu__btn > span::after,
+    #menu__toggle2:checked ~ .menu__btn2 > span::after {
       top: 0;
       transform: rotate(90deg);
     }
 
-    #menu__toggle:checked~.menu__box,
-    {
+    #menu__toggle:checked ~ .menu__box {
       visibility: visible;
       left: 0;
     }
 
-    .header__activePage{
+    .header__activePage {
       color: #fff;
       display: flex;
       letter-spacing: 1px;
@@ -161,10 +167,6 @@ header {
 
 @media screen and (max-width: 425px) {
   header {
-      a, a:visited{
-        padding: 0;
-      }
-
     .menu__btn {
       display: flex;
       /* используем flex для центрирования содержимого */
@@ -191,12 +193,12 @@ header {
     }
 
     .menu__btn > span::before {
-      content: '';
+      content: "";
       top: -8px;
     }
 
     .menu__btn > span::after {
-      content: '';
+      content: "";
       top: 8px;
     }
 
