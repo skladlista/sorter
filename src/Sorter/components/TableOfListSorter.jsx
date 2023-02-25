@@ -17,6 +17,12 @@ export default function TableOfListSorter(props) {
         </li>
 
         <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="create_work_production">
+            Сделать задание на задачу
+          </NavLink>
+        </li>
+
+        <li onClick={topFunction}>
           <NavLink className="tableOfList__link" to="recertification-1C">
             Переаттестация листов в 1С
           </NavLink>

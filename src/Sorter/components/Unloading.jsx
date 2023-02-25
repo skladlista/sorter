@@ -1,8 +1,8 @@
-import sum from "../../assets/sum.jpg";
-import reportUnloading from "../../assets/report-unloading.jpg";
+import zpriem from "../../assets/zpriem.png";
+import many_variants from "../../assets/many_variants.png";
 import { Link } from "react-router-dom";
 
-export default function CheckSsz() {
+export default function Unloading() {
   return (
     <div id="unloading" className="article unloading">
       <p className="article__title">ВЫГРУЗКА ОТ ПОСТАВЩИКА</p>
@@ -15,8 +15,9 @@ export default function CheckSsz() {
               </summary>
               <ol className="article__list sublist">
                 <li>Открыть САП и зайти в ZPRIEM (ПЛАНИРОВАНИЕ ПРИЕМКИ ЛП)</li>
+                <img src={zpriem} alt=""/>
                 <li>
-                  Ввести номера вагонов
+                  Ввести номера вагонов через «множественный выбор» <span><img src={many_variants} alt=""/></span>→ убрать √ «завершена» → Нажать часики(F8)
                   <span className="bold"> Нажать Выполнить (F8)</span>
                 </li>
 
@@ -55,7 +56,7 @@ export default function CheckSsz() {
                 </li>
 
                 <li>
-                  Поставить их на ворота. Выбрать вагон → Ворота → Вписать
+                  Поставить их на ворота. Выбрать строку с вагоном → Ворота → Вписать
                   ворота (от HS01 до HS09)
                 </li>
                 <li>
@@ -106,6 +107,11 @@ export default function CheckSsz() {
                               </span>{" "}
                               и тут в поисковике вписать номер вагона (он должен
                               быть на несколько дней раньше отсканирован)
+                              <br/>
+                              <br/>
+                              Сохранить в папку:
+                              <br/>
+                              X:\MES\ТЭСЦ\Склад листа\Сертификаты и ведомости приёма\ГОД\Текущий месяц\Текущий день\Смена (ДЕНЬ или НОЧЬ)
                             </div>
                           </ol>
                         </details>
@@ -149,7 +155,7 @@ export default function CheckSsz() {
                   номер вагона и дату своей смены → Сформировать
                 </li>
                 <li>
-                  Проверить соответствие данных в сертификате с данными в 1С →
+                  Вписать дату сертификата → Проверить соответствие данных в сертификате с данными в 1С →
                   Нажать кнопку <span className="bold">ИЗМЕНИТЬ</span>
                 </li>
                 <li>

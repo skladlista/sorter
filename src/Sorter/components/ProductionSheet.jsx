@@ -1,5 +1,6 @@
 import dateZadacha from "../../assets/date-zadacha.jpg";
 import sort from "../../assets/sort.jpg";
+import production from "../../assets/Production.png";
 
 export default function ProductionSheet() {
   return (
@@ -29,6 +30,7 @@ export default function ProductionSheet() {
           </li>
           <li className="article__subtitle">
             Провалится в документ задачи листа и скопировать дату
+            <img src={production} alt="..." />
           </li>
           <li className="article__subtitle">
             Открыть{" "}
@@ -41,6 +43,10 @@ export default function ProductionSheet() {
           <li className="article__subtitle">
             Нажать отбор и записать скопированную дату в ячейку Дата задачи/Дата
             списания
+            <br/>
+            В ячейке <span className="bold">НОМЕР ЛИСТА</span> установить{" "}
+            <span className="bold">ЗАПОЛНЕНО</span>
+
             <img src={dateZadacha} alt="..." />
           </li>
           <li className="article__subtitle">
@@ -100,6 +106,7 @@ export default function ProductionSheet() {
             вторая <span className="bold">№ листа поставщика</span>
             <img src={sort} alt="..." />
           </li>
+
           <li className="article__subtitle">
             Выделить всё на черновике (для этого выделить заголовок и нажать
             CTRL+A
@@ -118,11 +125,15 @@ export default function ProductionSheet() {
           </li>
 
           <li className="article__subtitle">
+            Проверить на соответствие по партии SAP, чтобы верхний и нижний номер партии SAP в складе листа соответственно совпадали с верхним и нижним номерами в черновике
+          </li>
+
+          <li className="article__subtitle">
             Перейти на вкладку <span className="bold">ПРИЕМКА</span> → Вставить
             в видимые.
           </li>
           <li className="article__subtitle">
-            Выделить <span className="bold">номер листа ТЭСЦ</span> в черновике
+            Выделить снизу вверх <span className="bold">номер листа ТЭСЦ</span> в черновике
             и потом <span className="bold">номер листа ТЭСЦ</span> в СКЛАДЕ
             ЛИСТА
           </li>

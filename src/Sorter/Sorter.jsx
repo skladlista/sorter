@@ -30,6 +30,7 @@ import LoadingExternal from "./components/LoadingExternal";
 import PhoneNumbers from "./components/PhoneNumbers";
 import SapRecertification from "./components/SapRecertification";
 import UpdateClassificationInSapEwm from "./components/UpdateClassificationInSapEwm";
+import CreateWorkProduction from "./components/CreateWorkProduction";
 
 export default function Sorter(props) {
     window.scrollTo(0, 0);
@@ -47,6 +48,12 @@ export default function Sorter(props) {
                 path="/check-ssz"
                 element={
                     <CheckSsz />
+                }
+            />
+            <Route
+                path="/create_work_production"
+                element={
+                    <CreateWorkProduction />
                 }
             />
             <Route

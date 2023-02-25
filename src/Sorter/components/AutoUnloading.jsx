@@ -1,4 +1,5 @@
 import otherMethods from "../../assets/other-methods.jpg";
+import deletejpg from "../../assets/delete.jpg";
 import unloading from "../../assets/unloading.png";
 
 export default function ExFilter() {
@@ -22,7 +23,7 @@ export default function ExFilter() {
           </li>
           <li className="article__subtitle">
             Открыть новое окно SAP → Монитор управления складами → Документы →
-            Складская задача (два раза нажать) → Нажать удалить значения →
+            Складская задача (двойной клик) → Нажать удалить значения <span><img src={deletejpg} alt=""/></span> →
             Вставить в ячейку ЕДИНИЦА ОБРАБОТКИ скопированное
           </li>
           <li className="article__subtitle">
