@@ -50,10 +50,6 @@ export default function ProductionSheet() {
             <img src={dateZadacha} alt="..." />
           </li>
           <li className="article__subtitle">
-            В ячейке <span className="bold">НОМЕР ЛИСТА</span> установить{" "}
-            <span className="bold">ЗАПОЛНЕНО</span>
-          </li>
-          <li className="article__subtitle">
             Нажать завершить и потом нажать сформировать
           </li>
           <li className="article__subtitle">
