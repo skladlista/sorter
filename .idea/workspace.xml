@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="update 25.02.2023" />
+    <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="update 27.02.2023" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +32,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Frontend/2022/Projects/Instructions-sorter/src/Header",
+    "last_opened_file_path": "D:/Frontend/2022/Projects/Instructions-sorter/src",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -42,10 +42,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Frontend\2022\Projects\Instructions-sorter\src" />
       <recent name="D:\Frontend\2022\Projects\Instructions-sorter\src\Header" />
       <recent name="D:\Frontend\2022\Projects\Instructions-sorter\src\assets" />
       <recent name="D:\Frontend\2022\Projects\Instructions-sorter\src\Sorter\components" />
-      <recent name="D:\Frontend\2022\Projects\Instructions-sorter\src" />
       <recent name="D:\Frontend\2022\Projects\Instructions-sorter\src\Sorter" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -117,6 +117,7 @@
       <workItem from="1676727082538" duration="564000" />
       <workItem from="1677137593675" duration="1228000" />
       <workItem from="1677302304480" duration="6528000" />
+      <workItem from="1677483028266" duration="184000" />
     </task>
     <task id="LOCAL-00001" summary="Add all project">
       <created>1667291052822</created>
@@ -342,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677308659372</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="update 27.02.2023">
+      <created>1677483056156</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1677483056156</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,18 +405,7 @@
     <MESSAGE value="update styles 18.02.2023" />
     <MESSAGE value="update 23.02.2023" />
     <MESSAGE value="update 25.02.2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 25.02.2023" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/Sorter/components/CreateWorkProduction.jsx</url>
-          <line>60</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="update 27.02.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 27.02.2023" />
   </component>
 </project>

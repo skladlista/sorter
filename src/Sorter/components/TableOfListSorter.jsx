@@ -145,6 +145,12 @@ export default function TableOfListSorter(props) {
         <hr />
 
         <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="get_statuses_cars">
+            Определение статуса карт
+          </NavLink>
+        </li>
+
+        <li onClick={topFunction}>
           <NavLink className="tableOfList__link" to="letter_report">
             ФОРМИРОВАНИЕ ПИСЬМА-ОТЧЕТА
           </NavLink>
@@ -163,7 +169,10 @@ export default function TableOfListSorter(props) {
         </li>
 
         <li onClick={topFunction}>
-          <NavLink className="tableOfList__link" to="update_classification_in_sap_ewm">
+          <NavLink
+            className="tableOfList__link"
+            to="update_classification_in_sap_ewm"
+          >
             лист без ширины, толщины и т.п.
           </NavLink>
         </li>
